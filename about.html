@@ -70,7 +70,7 @@
       </header>
       <section class=" red">
         <div class="background"></div>
-          <video class="video" controls autoplay muted loop>
+          <video class="video" autoplay muted loop>
             <source src="img/spot-prototype.mp4" type="video/mp4">
           </video>  
         <div class="container">
@@ -1575,7 +1575,7 @@
       </footer>
       <div class="modal fade bs-example-modal-lg" id="video_home" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg">
-          <video class="video" controls>
+          <video id="video_from_modal" class="video" controls>
             <source src="img/spot-prototype.mp4" type="video/mp4">
           </video> 
         </div>
@@ -1593,6 +1593,20 @@
     $('#carousel_banner').carousel({
       interval: 2000
     })
+
+    $('.modal').click(function() {
+      $('#video_from_modal').get(0).pause()
+      if ($('body').hasClass('modal-open')) {
+        $('body').addClass('modal-close');
+      }
+    });
+
+    $('.play').click(function() {
+      if ($('body').hasClass('modal-close')) {
+        $('body').removeClass('modal-close');
+      }
+    });
+
   </script>
 
 </body>

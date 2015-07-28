@@ -31,6 +31,10 @@ section {
   overflow: hidden;
 }
 
+a:focus {
+  outline: 0;
+}
+
 .valign-wrapper {
 	display: -webkit-box;
 	display: -moz-box;
