@@ -813,17 +813,16 @@ ul.plan_feats li span {
   width: 100%;
 }
 
-.video{
+.videomini{
   width: 100%;
   background-color: #ccc;
   margin-bottom: 20px;
-  float: left;
   overflow: hidden;
   position: relative;
   text-align: center;
 }
 
-.video .mascara {
+.videomini .mascara {
   position: absolute;
   overflow: hidden;
   top: 0;
@@ -837,18 +836,18 @@ ul.plan_feats li span {
   -webkit-transition: all 0.5s;
 }
 
-.video:hover .mascara { 
+.videomini:hover .mascara { 
   opacity: 1;
   display: block;
 
 }
 
-.video img {
+.videomini img {
  display: block;
  position: relative;
 }
 
-.video .center {
+.videomini .center {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -884,6 +883,10 @@ ul.plan_feats li span {
   background-color: rgba(0,0,0,0.75);
 }
 
-.video:hover .course_title {
+.videomini:hover .course_title {
   bottom: 0;
+}
+
+.video {
+  height: 100%;
 }
