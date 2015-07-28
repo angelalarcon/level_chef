@@ -824,17 +824,17 @@ ul.plan_feats li span {
 }
 
 .video .mascara {
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    background-color: rgba(0,0,0,0.75);
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.75);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
 }
 
 .video:hover .mascara { 
@@ -844,26 +844,8 @@ ul.plan_feats li span {
 }
 
 .video img {
-   display: block;
-   position: relative;
-}
-.video h2 {
-    font-family: 'Open Sans Light';
-    color: #fff;
-    text-align: center;
-    position: relative;
-    font-size: 15px;
-    padding: 10px;
-    padding: 93px 20px 20px;
-    text-align: left;
-}
-.video p {
-    font-family: 'Open Sans Light';
-    font-size: 12px;
-    position: relative;
-    color: #fff;
-    padding: 113px 20px 20px;
-    text-align: right;
+ display: block;
+ position: relative;
 }
 
 .video .center {
@@ -873,8 +855,34 @@ ul.plan_feats li span {
 
 }
 
-.playmini{
-  background: url(../img/boton.png) no-repeat top;
+.playmini {
+  background: url(../img/boton.png) no-repeat;
+  background-position: 0 0;
   height: 30px;
   width: 30px;
+  display: block;
+}
+
+.playmini:hover {
+  background-position: 0 100%;
+}
+
+.course_title {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -30px;
+  height: 30px;
+  font-family: 'Open Sans Light';
+  color: #fff;
+  font-size: 12px;
+  line-height: 30px;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  background-color: rgba(0,0,0,0.75);
+}
+
+.video:hover .course_title {
+  bottom: 0;
 }
