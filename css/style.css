@@ -88,10 +88,13 @@ header a.active:after {
 	text-align: center;
 	line-height: 100px;
 	margin: -15px 0;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
 }
 
 .user-menu a:hover {
-	background-color: #D52828;
+  background-color: rgba(169, 27, 32, 0.69);
 }
 
 .user-menu a img {
@@ -236,6 +239,9 @@ section a:hover {
   font-size: 18px;
   margin-top: 25px;
   color: white;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
 
 }
 
@@ -330,10 +336,13 @@ footer a:hover {
   width: 100%;
   padding: 15px;
   font-weight: bold;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
 }
 
 .submit:hover {
-  background-color: #D52828;
+  background-color: rgba(169, 27, 32, 0.69);
   text-decoration: none;
 }
 
@@ -597,7 +606,7 @@ section.white .info_box .info .read_more {
   left: 110px;
   bottom: 0;
   display: block;
-  color: #D10000;
+  color: #C92E2E;;
 }
 
 .red_text {
@@ -681,6 +690,7 @@ section.white .info_box .info .read_more {
   background-color: #ccc;
   margin-bottom: 20px;
 }
+
 
 section.white h1 {
   font-family: 'Open Sans Bold';
@@ -797,4 +807,74 @@ ul.plan_feats li span {
   -webkit-border-radius: 5px;
   font-size: 20px;
   font-family: 'Open Sans Condensed';
+}
+
+.img-full {
+  width: 100%;
+}
+
+.video{
+  width: 100%;
+  background-color: #ccc;
+  margin-bottom: 20px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.video .mascara {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.75);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.video:hover .mascara { 
+  opacity: 1;
+  display: block;
+
+}
+
+.video img {
+   display: block;
+   position: relative;
+}
+.video h2 {
+    font-family: 'Open Sans Light';
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 15px;
+    padding: 10px;
+    padding: 93px 20px 20px;
+    text-align: left;
+}
+.video p {
+    font-family: 'Open Sans Light';
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 113px 20px 20px;
+    text-align: right;
+}
+
+.video .center {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+
+}
+
+.playmini{
+  background: url(../img/boton.png) no-repeat top;
+  height: 30px;
+  width: 30px;
 }
