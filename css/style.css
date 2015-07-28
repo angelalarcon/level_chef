@@ -888,5 +888,6 @@ ul.plan_feats li span {
 }
 
 .video {
-  height: 100%;
+  vertical-align: top;
+  width: 100%;
 }
