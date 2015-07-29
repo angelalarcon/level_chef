@@ -51,6 +51,10 @@ a:focus {
 	display: block;
 }
 
+.view_m_b{
+  margin-bottom: 10px;
+}
+
 header {
 	font-family: 'Open Sans Bold';
 	background-color: #C92E2E;
