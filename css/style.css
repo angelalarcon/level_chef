@@ -347,9 +347,9 @@ footer a:hover {
   width: 100%;
   padding: 15px;
   font-weight: bold;
-  transition: 0.5s;
-  -moz-transition: 0.5s;
-  -webkit-transition: 0.5s;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
 }
 
 .submit:hover {
@@ -373,13 +373,14 @@ footer a:hover {
 }
 
 .like {
-  margin-left: 70%;
+  margin-left: 76%;
   margin-top: 10px;
   padding-top: 8px;
   font-size: 20px;
 }
 
-.facebook {
+.facebook
+ {
   background-color: #23599C; 
 }
 
@@ -488,11 +489,15 @@ section.red .video_info h4 {
   -webkit-border-radius: 3px;
   margin: 10px 0;
   display: inline-block;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
 }
 
 .btn-white:hover,
 .btn-white:focus {
-  color: #292929;
+  background-color: rgba(169, 27, 32, 0.69);
+  color: #fff;
   text-decoration: none;
 }
 
@@ -538,6 +543,14 @@ body#about header a.active {
   border-radius: 1px;
   -moz-border-radius: 1px;
   -webkit-border-radius: 1px;
+   transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+body#about header a.active:hover{
+  background-color: rgba(169, 27, 32, 0.69);
+  color: #fff;
 }
 
 section.black {
@@ -735,6 +748,19 @@ section.gray h4 {
   display: block;
   margin: 20px 0;
   padding: 10px 20px;
+  border-radius: 1px;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.btn-green:hover,
+.btn-green:focus {
+  background-color: #0B883C;
+  color: #fff;
+  text-decoration: none;
 }
 
 .max-width {
@@ -764,6 +790,7 @@ section.plans .title {
   -webkit-border-radius: 5px;
   position: relative;
   min-height: 400px;
+  margin-bottom: 25px;
 }
 
 .conten_plans h1 {
@@ -819,6 +846,16 @@ ul.plan_feats li span {
   -webkit-border-radius: 5px;
   font-size: 20px;
   font-family: 'Open Sans Condensed';
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.btn-plans:hover,
+.btn-plans:focus {
+  background-color: #4AA171;
+  color: #fff;
+  text-decoration: none;
 }
 
 .img-full {
