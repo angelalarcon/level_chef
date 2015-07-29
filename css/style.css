@@ -432,6 +432,10 @@ footer a:hover {
   font-weight: bold;
 }
 
+.text_copy{
+  margin-left: 40px;
+}
+
 ul#methods {
   -webkit-padding-start: 0;
 }
