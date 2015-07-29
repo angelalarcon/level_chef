@@ -1589,47 +1589,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
-  <script>
-    $('#carousel_banner').carousel({
-      interval: 2000
-    })
-
-    $('#carousel_courses').carousel({
-      interval: 30000
-    })
-
-    $('.modal').click(function() {
-      $('#video_from_modal').get(0).pause()
-      if ($('body').hasClass('modal-open')) {
-        $('body').addClass('modal-close');
-      }
-    });
-
-    $('.play').click(function() {
-      if ($('body').hasClass('modal-close')) {
-        $('body').removeClass('modal-close');
-      }
-    });
-
-    $(window).on('scroll', function () {
-        var scrollTop = $(window).scrollTop();
-        if (scrollTop > $('section.red').height()) {
-          $('header').addClass('colored')
-          $('header').removeClass('transparent')   
-        }
-        else {
-          $('header').removeClass('colored')
-          $('header').addClass('transparent')   
-        }
-    });
-
-  </script>
-  <script>
-    jQuery('#video_home').on('hidden', function (e) {
-      // do something...
-      jQuery('#video_home video').attr("src=img/spot-prototype.mp4", jQuery("#video_home  video").attr("src=img/spot-prototype.mp4"));
-    });
-  </script>
-
+  <script src="js/main.js"></script>
 </body>
 </html>
