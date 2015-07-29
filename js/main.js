@@ -21,7 +21,7 @@ $('.play').click(function() {
 
 $(window).on('scroll', function () {
     var scrollTop = $(window).scrollTop();
-    if (scrollTop > $('section.red').height()) {
+    if (scrollTop > ($('section.red').height())/2) {
       $('header').addClass('colored')
       $('header').removeClass('transparent')   
     }
