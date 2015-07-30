@@ -77,14 +77,6 @@ h4 {
   -webkit-transition: all 0.3s;
 }
 
-header.transparent {
-  background-color: transparent;
-}
-
-header.colored {
-  background-color: #C92E2E;
-}
-
 header a {
 	color: #fff;
 	position: relative;
@@ -996,13 +988,30 @@ ul.plan_feats li span {
   background-color: #C92E2E;
 }
 
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #C92E2E;
+}
+
 .navbar-default {
   background-color: #C92E2E;
   border-color: rgba(169, 27, 32, 0.69);
 }
 
+header .navbar-transparent {
+  background-color: transparent;
+  border-color: transparent;
+  font-family: 'Open Sans Bold';
+  width: 100%;
+  color: #fff;
+}
+
 .navbar-nav {
-  margin: 20px 30px;
+  margin: 20px 50px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: none;
+  background-color: rgba(169, 27, 32, 0.69);
 }
 
 .navbar-header{
@@ -1026,4 +1035,25 @@ header .navbar-default .navbar-nav>li>a {
 header .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   color: #fff;
   background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+   background-color: rgba(169, 27, 32, 0.69);
+}
+
+.nav>li>a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FFF;
+}
+
+#carousel_courses .carousel-indicators li {
+  background-color: #ccc;
+  border-color: #ccc;
+  margin: 1px 5px;
 }
