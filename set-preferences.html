@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en" class="app">
+<head>  
+  <meta charset="utf-8" />
+  <title>Level Chef | Courses</title>
+  <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="js/jPlayer/jplayer.flat.css" type="text/css" />
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="css/animate.css" type="text/css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" />
+  <link rel="stylesheet" href="css/font.css" type="text/css" />
+  <link rel="stylesheet" href="css/app.css" type="text/css" /> 
+  <link rel="stylesheet" href="js/datepicker/datepicker.css" type="text/css" />
+  <link rel="stylesheet" href="js/slider/slider.css" type="text/css" />
+  <link rel="stylesheet" href="js/chosen/chosen.css" type="text/css" />
+    <!--[if lt IE 9]>
+    <script src="js/ie/html5shiv.js"></script>
+    <script src="js/ie/respond.min.js"></script>
+    <script src="js/ie/excanvas.js"></script>
+  <![endif]-->
+</head>
+<body class="">
+  <section class="vbox">
+    <header class="bg-black header header-md navbar navbar-fixed-top-xs">
+      <div class="navbar-header aside bg-info dk nav-xs">
+        <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html">
+          <i class="icon-list"></i>
+        </a>
+        <a href="index.html" class="navbar-brand text-lt">
+          <img src="images/as.png" alt="." >
+          <span class="hidden-nav-xs m-l-sm"> <img src="images/logo.png" alt="." ></span>
+        </a>
+        <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".user">
+          <i class="icon-settings"></i>
+        </a>
+      </div>      <ul class="nav navbar-nav hidden-xs">
+        <li>
+          <a href="#nav,.navbar-header" data-toggle="class:nav-xs,nav-xs" class="text-muted">
+            <i class="fa fa-indent text"></i>
+            <i class="fa fa-dedent text-active"></i>
+          </a>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left input-s-lg m-t m-l-n-xs hidden-xs" role="search">
+        <div class="form-group">
+          <div class="input-group">
+            <span class="input-group-btn">
+              <button type="submit" class="btn btn-sm bg-socl btn-icon"><i class="fa fa-search"></i></button>
+            </span>
+            <input type="text" class="form-control input-sm no-border bg-socl" placeholder="Search lessons, courses...">
+          </div>
+        </div>
+      </form>
+      <div class="navbar-right ">
+        <ul class="nav navbar-nav m-n hidden-xs nav-user user">
+          <li class="hidden-xs">
+            <a href="#" class="dropdown-toggle lt" data-toggle="dropdown">
+              <i class="icon-bell"></i>
+              <span class="badge badge-sm up bg-danger count">2</span>
+            </a>
+            <section class="dropdown-menu aside-xl animated fadeInUp">
+              <section class="panel bg-white">
+                <div class="panel-heading b-light bg-light">
+                  <strong>You have <span class="count">2</span> notifications</strong>
+                </div>
+                <div class="list-group list-group-alt">
+                  <a href="#" class="media list-group-item">
+                    <span class="pull-left thumb-sm">
+                      <img src="images/a0.png" alt="..." class="img-circle">
+                    </span>
+                    <span class="media-body block m-b-none">
+                      Use awesome animate.css<br>
+                      <small class="text-muted">10 minutes ago</small>
+                    </span>
+                  </a>
+                  <a href="#" class="media list-group-item">
+                    <span class="media-body block m-b-none">
+                      1.0 initial released<br>
+                      <small class="text-muted">1 hour ago</small>
+                    </span>
+                  </a>
+                </div>
+                <div class="panel-footer text-sm">
+                  <a href="#" class="pull-right"><i class="fa fa-cog"></i></a>
+                  <a href="#notes" data-toggle="class:show animated fadeInRight">See all the notifications</a>
+                </div>
+              </section>
+            </section>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle bg clear" data-toggle="dropdown">
+              <span class="thumb-sm avatar pull-right m-t-n-sm m-b-n-sm m-l-sm">
+                <img src="images/a0.png" alt="...">
+              </span>
+              Akane Tsu <b class="caret"></b>
+            </a>
+            <section class="dropdown-menu aside-lg bg-white on animated fadeInLeft">
+            <div class="row m-l-none m-r-none m-t m-b text-center">
+			  <div class="col-xs-4">
+                <div class="padder-v">
+                  <a href="profile.html">
+                    <span class="m-b-xs block">
+                       <i class="fa bookm"></i>
+                    </span>
+                    <small class="text-muted">Profile</small>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="padder-v">
+                  <a href="bookmarks.html">
+                    <span class="m-b-xs block">
+                       <i class="fa bookm2"></i>
+                    </span>
+                    <small class="text-muted">Bookmarks</small>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="padder-v">
+                  <a href="playlists.html">
+                    <span class="m-b-xs block">
+                      <i class="fa bookm6"></i>
+                    </span>
+                    <small class="text-muted">Playlists</small>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="padder-v">
+                  <a href="certificates.html">
+                    <span class="m-b-xs block">
+                      <i class="fa bookm3"></i>
+                    </span>
+                    <small class="text-muted">Certificates</small>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="padder-v">
+                  <a href="settings.html">
+                    <span class="m-b-xs block">
+                      <i class="fa bookm4"></i>
+                    </span>
+                    <small class="text-muted">Settings</small>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="padder-v">
+                  <a href="signin.html">
+                    <span class="m-b-xs block">
+                      <i class="fa bookm5"></i>
+                    </span>
+                    <small class="text-muted">Sign Out</small>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          </li>
+        </ul>
+      </div>      
+    </header>
+    <section>
+      <section class="hbox stretch">
+        <!-- .aside -->
+        <aside class="bg-black dk nav-xs aside hidden-print" id="nav">          
+          <section class="vbox">
+            <section class="w-f-md scrollable">
+              <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="10px" data-railOpacity="0.2">
+                
+
+
+                <!-- nav -->                 
+                <nav class="nav-primary hidden-xs">
+                  <ul class="nav bg clearfix">
+                    <li class="hidden-nav-xs padder m-t m-b-sm text-xs text-muted">
+                      Learn
+                    </li>
+                    <li>
+                      <a href="courses.html">
+                         <i class="fa fa-play icon bg-info"></i>
+                        <span class="font-bold">Courses</span>
+                      </a>
+                    </li>
+					
+					<li>
+                      <a href="paths.html">
+                         <i><img src="images/ics.png" alt="..."></i>
+                        <span class="font-bold">Learning Paths</span>
+                      </a>
+                    </li>
+                    <li class="m-b hidden-nav-xs"></li>
+                  </ul>
+                  <ul class="nav" data-ride="collapse">
+                    <li class="hidden-nav-xs padder m-t m-b-sm text-xs text-muted">
+                      More
+                    </li>
+					<li>
+                      <a href="#">
+					    <span class="pull-right text-muted">
+                          <i class="fa fa-angle-left text"></i>
+                          <i class="fa fa-angle-down text-active"></i>
+                        </span>
+                        <i><img src="images/hel.png" alt="..."></i>
+                        <span class="font-bold">Community</span>
+                      </a>
+					  <ul class="nav dk text-sm">
+                        <li >
+                          <a href="helpdesk.html" class="auto">                                                        
+                            <i class="fa fa-angle-right text-xs"></i>
+
+                            <span>Helpdesk</span>
+                          </a>
+                        </li>
+						<li >
+                          <a href="community.html" class="auto">                                                        
+                            <i class="fa fa-angle-right text-xs"></i>
+
+                            <span>Forum</span>
+                          </a>
+                        </li>
+						<li >
+                          <a href="blog.html" class="auto">                                                        
+                            <i class="fa fa-angle-right text-xs"></i>
+
+                            <span>Blog</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li >
+                      <a href="#" class="auto">
+                        <span class="pull-right text-muted">
+                          <i class="fa fa-angle-left text"></i>
+                          <i class="fa fa-angle-down text-active"></i>
+                        </span>
+                         <i><img src="images/sal.png" alt="..."></i>
+                        <span>Level Chef</span>
+                      </a>
+                      <ul class="nav dk text-sm">
+                        <li >
+                          <a href="about.html" class="auto">                                                        
+                            <i class="fa fa-angle-right text-xs"></i>
+
+                            <span>About Us</span>
+                          </a>
+                        </li>
+						<li >
+                          <a href="features.html" class="auto">                                                        
+                            <i class="fa fa-angle-right text-xs"></i>
+
+                            <span>Features</span>
+                          </a>
+                        </li>
+						<li >
+                          <a href="pricing.html" class="auto">                                                        
+                            <i class="fa fa-angle-right text-xs"></i>
+
+                            <span>Pricing</span>
+                          </a>
+                        </li>
+						<li >
+                          <a href="press.html" class="auto">                                                        
+                            <i class="fa fa-angle-right text-xs"></i>
+
+                            <span>Press / Media</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+					<li>
+                      <a href="store.html" class="auto">
+                        <span class="pull-right text-muted">
+                        </span>
+                        <i><img src="images/cart.png" alt="..."></i>
+                        <span>Market</span>
+                      </a>
+                    </li>
+					
+                  </ul>
+                </nav>
+                <!-- / nav -->
+              </div>
+            </section>
+            
+            <footer class="footer hidden-xs no-padder text-center-nav-xs">
+              <div class="bg hidden-xs ">
+                  <div class="dropdown dropup wrapper-sm clearfix">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" rel="tooltip" data-placement="top" title="Help!">
+                      <span class="thumb-sm avatar pull-left m-l-xs">                        
+                        <img src="images/a3.png" class="dker" alt="...">
+                        <i class="on b-black"></i>
+                      </span>
+                      <span class="hidden-nav-xs clear">
+                        <span class="block m-l">
+                          <strong class="font-bold text-lt">Chris Redfield</strong> 
+                          <b class="caret"></b>
+                        </span>
+                        <span class="text-muted text-xs block m-l">Osaka | Japan</span>
+                      </span>
+                    </a>
+                    <ul class="dropdown-menu animated fadeInRight aside text-left">                      
+                      <li>
+                <a href="support.html">Tutor & Support</a>
+              </li>
+              <li>
+                <a href="maila.html">
+                  <span class="badge bg-danger pull-right">3</span>
+                  Inbox
+                </a>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <a href="modal.lockme.html" data-toggle="ajaxModal" >Sign Out</a>
+				
+              </li>
+                    </ul>
+                  </div>
+                </div>            </footer>
+          </section>
+        </aside>
+        <!-- /.aside -->
+        <section id="content">
+          <section class="vbox">
+            <section id="bjax-target">
+              <section class="hbox stretch">
+                <!-- side content -->
+                <aside class="aside bg-light dk" id="sidebar">
+                  <section class="vbox animated fadeInUp">
+                    <section class="scrollable hover bg-dangerx">
+                      <div class="list-group no-radius no-border no-bg m-t-n-xxs m-b-none auto">
+                        <a href="dashboard.html" class="list-group-item">
+                          Dashboard
+                        </a>
+                        <a href="settings.html" class="list-group-item">
+                          My profile
+                        </a>
+						<a href="set-billing.html" class="list-group-item">
+                          Billing & Plan
+                        </a>
+						<a href="set-preferences.html" class="list-group-item active">
+                          Preferences
+                        </a>
+						<a href="certificates.html" class="list-group-item">
+                          Certificates
+                        </a>
+						<a href="playlists.html" class="list-group-item">
+                          Playlists
+                        </a>
+                        <a href="bookmarks.html" class="list-group-item">
+                          Bookmarks
+                        </a>
+                        
+                      </div>
+                    </section>
+                  </section>
+                </aside>
+                <!-- / side content -->
+                <aside class="bg-white vbox">
+                 <section class="wrapper scrollable">
+                
+                <div class="panel-body">
+				<header class="h4 font-bold">
+                  Preferences
+                </header><br>
+                  <form class="form-horizontal" method="get">
+                    <div class="form-group">
+                      <label class="col-sm-2 control-label">I'm interested in</label>
+                      <div class="col-sm-10">
+                        <select style="width:260px" multiple class="chosen-select">
+                          <option value="BA">Bakery</option>
+                          <option value="PA">Pastry</option>
+                          <option value="GO">Gourmet</option>
+                          <option value="FU">Fundamentals</option>
+                          <option value="AS">Asian</option>
+                          <option value="SA">Salads</option>
+                        </select>
+                      </div>
+                    </div>
+					
+					<div class="line line-dashed b-b line-lg pull-in"></div>
+                    <div class="form-group">
+                      <label class="col-sm-2 control-label">Newsletter</label>
+                      <div class="col-sm-10">
+                        <label class="switch">
+                          <input type="checkbox">
+                          <span></span>
+                        </label>
+                      </div>
+                    </div>
+					 <div class="line line-dashed b-b line-lg pull-in"></div>
+					
+					<div class="form-group">
+                      <label class="col-sm-2 control-label">Community Username</label>
+                      <div class="col-sm-3">
+                        <input type="text" class="form-control">
+                        <span class="help-block m-b-none">Username for comment in blog posts and community stuff.</span>
+                      </div>
+                    </div>
+					<div class="line line-dashed b-b line-lg pull-in"></div>
+                    <div class="form-group">
+                      <label class="col-sm-2 control-label">Personal URL</label>
+                      <div class="col-sm-3">
+                        <input type="text"  class="form-control" placeholder="www.levelchef.com/example">
+                      </div>
+                    </div>
+					<div class="line line-dashed b-b line-lg pull-in"></div>
+                    <div class="form-group">
+                      <label class="col-sm-2 control-label">Language</label>
+                      <div class="col-sm-10">
+                        <select style="width:260px" class="chosen-select">
+						         <option value="AF">English</option>
+                                 <option value="AF">Español</option>
+                                 <option value="AL">Portugués</option>
+                                 <option value="DZ">日本語</option>
+                                 <option value="AS">Italiano</option>
+                                 <option value="AI">中文</option>
+								
+                        </select>
+                      </div>
+                    </div>
+					<div class="line line-dashed b-b line-lg pull-in"></div>
+			  <header class="h4 font-bold">
+                  Privacy
+              </header><br>
+                    
+				<form class="panel-heading form-horizontal" method="get">
+				<header class="font-bold">
+                  Personal information
+                </header>
+					<div class="form-group">
+                      <div class="col-sm-10">
+                        <div class="radio i-checks">
+                          <label>
+                            <input type="radio" name="a" value="option1">
+                            <i></i>
+                            Private
+                          </label>
+                        </div>
+                        <div class="radio i-checks">
+                          <label>
+                            <input type="radio" name="a" value="option2">
+                            <i></i>
+                            Only LevelChef's members
+                          </label>
+                        </div>
+						<div class="radio i-checks">
+                          <label>
+                            <input type="radio" name="a" value="option3" checked>
+                            <i></i>
+                            Públic
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+				</form>
+				<div class="line line-dashed b-b line-lg pull-in"></div>
+				<form class="form-horizontal" method="get">
+				<header class="font-bold">
+                  Progress and achievements
+                </header>
+					<div class="form-group">
+                      <div class="col-sm-10">
+                        <div class="radio i-checks">
+                          <label>
+                            <input type="radio" name="a" value="option1">
+                            <i></i>
+                            Private
+                          </label>
+                        </div>
+						<div class="radio i-checks">
+                          <label>
+                            <input type="radio" name="a" value="option2">
+                            <i></i>
+                            Only LevelChef's members
+                          </label>
+                        </div>
+                        <div class="radio i-checks">
+                          <label>
+                            <input type="radio" name="a" value="option3" checked>
+                            <i></i>
+                            Public
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+				</form>
+				<div class="line line-dashed b-b line-lg pull-in"></div>
+				<form class="form-horizontal" method="get">
+				<header class="font-bold">
+                  Comments and feedback
+                </header>
+					<div class="form-group">
+                      <div class="col-sm-10">
+                        <div class="radio i-checks">
+                          <label>
+                            <input type="radio" name="a" value="option1">
+                            <i></i>
+                            Private
+                          </label>
+                        </div>
+						<div class="radio i-checks">
+                          <label>
+                            <input type="radio" name="a" value="option2">
+                            <i></i>
+                            Only LevelChef's tutors
+                          </label>
+                        </div>
+                        <div class="radio i-checks">
+                          <label>
+                            <input type="radio" name="a" value="option3" checked>
+                            <i></i>
+                            All LevelChef's members
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+				</form>
+				<div class="line line-dashed b-b line-lg pull-in"></div>
+                    <div class="form-group">
+                      <div class="col-sm-4 col-sm-offset-2">
+                        <button type="submit" class="btn btn-danger">Cancel</button>
+                        <button type="submit" class="btn btn-success">Save Changes</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </section>
+            </section>
+            </section>
+          </section>
+          <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen,open" data-target="#nav,html"></a>
+        </section>
+      </section>
+    </section>    
+  </section>
+  <script src="js/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.js"></script>
+  <!-- App -->
+  <script src="js/app.js"></script>  
+  <script src="js/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="js/app.plugin.js"></script>
+  <script type="text/javascript" src="js/jPlayer/jquery.jplayer.min.js"></script>
+  <script type="text/javascript" src="js/jPlayer/add-on/jplayer.playlist.min.js"></script>
+  <script type="text/javascript" src="js/jPlayer/demo.js"></script>
+  <!-- wysiwyg -->
+  <script src="js/wysiwyg/jquery.hotkeys.js"></script>
+  <script src="js/wysiwyg/bootstrap-wysiwyg.js"></script>
+  <script src="js/wysiwyg/demo.js"></script>
+  <!-- markdown -->
+  <script src="js/markdown/epiceditor.min.js"></script>
+  <script src="js/markdown/demo.js"></script>
+
+  <script src="js/chosen/chosen.jquery.min.js"></script>
+  <!-- datepicker -->
+  <script src="js/datepicker/bootstrap-datepicker.js"></script>
+  <!-- slider -->
+  <script src="js/slider/bootstrap-slider.js"></script>
+</body>
+</html>

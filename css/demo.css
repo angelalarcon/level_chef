@@ -1,0 +1,130 @@
+.header{
+	background-color: #fb1953;
+	border-bottom: 2px solid #eee;
+	width: 100%;
+}
+
+.content{
+	width: 990px;
+	margin: auto;
+}
+
+.content h4{
+	margin-bottom: 20px;
+}
+
+.features-container{
+	margin: 0 0 90px 0;
+}
+
+.features{
+	color:rgb(88, 88, 88);
+}
+
+.features-title{
+	font-weight: 500;
+}
+
+.grid-container{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+
+.noMarginBottom{
+	margin-bottom: 0 !important;
+}
+
+.content h2{
+	color: #fb1953;
+	font-size: 24px;
+}
+
+
+/* ====== MENU ====== */
+
+.content .navbar{
+	margin: 0;
+	background: none;
+	border: 0;
+	padding: 40px 0;
+}
+
+.content .navbar .navbar-brand{
+	padding-left: 0;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 200;
+}
+
+.content .navbar-nav a{
+	color: #fff !important;
+	font-weight: 200 !important;
+}
+
+.content .navbar-nav a:hover{
+	background: #E91750 !important;
+}
+
+.content .navbar-nav li.active a{
+	background: #E91750 !important;	
+}
+
+.navbar-toggle:focus{
+	background: none !important;
+	outline: 0;	
+}
+
+.navbar-toggle:hover{
+	background: #E91750 !important;
+}
+
+.navbar-toggle{
+	border-color: #fff !important;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #fff !important;
+}
+
+.get-it-now{
+	margin-left: 60px;
+}
+
+/* ====== END MENU ====== */
+
+
+
+
+/* ====== CONTENT ====== */
+
+.section{
+	background: #fff;
+	width: 100%;
+	padding: 60px 0px;
+}
+
+.section h2{
+	margin-top: 0;
+}
+
+/* ====== END CONTENT ====== */
+
+
+
+
+
+/* ====== RESPONSIVE DESIGN ====== */
+
+@media only screen and (max-width: 990px) {
+		.content{
+			width: 100%;
+			padding: 0px 10px !important;
+		}	
+}
+
+@media only screen and (max-width: 760px) {
+		.get-it-now{
+			margin-left: 0;
+			margin-top: 40px;
+		}
+}

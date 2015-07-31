@@ -557,7 +557,7 @@ section.red .video_info .btn-white {
   left: 50%;
   margin-top: -20px;
   margin-left: -40px;
-  background: url(../img/play.png) no-repeat;
+  background: url(../images/play.png) no-repeat;
   background-position: 0 0;
   display: block;
 }
@@ -599,7 +599,7 @@ body#about header a.active:hover{
 section.black {
   position: relative;
   background-size: cover;
-  background-image: url(;...img/black_section_background.png) no-repeat;
+  background-image: url(;...images/black_section_background.png) no-repeat;
 }
 
 section.black .background {
@@ -870,7 +870,7 @@ ul.plan_feats {
 }
 
 ul.plan_feats li {
-  list-style-image: url('../img/check_icon.png');
+  list-style-image: url('../images/check_icon.png');
   margin-bottom: 10px;
 }
 
@@ -950,7 +950,7 @@ ul.plan_feats li span {
 }
 
 .playmini {
-  background: url(../img/boton.png) no-repeat;
+  background: url(../images/boton.png) no-repeat;
   background-position: 0 0;
   height: 30px;
   width: 30px;
@@ -1054,7 +1054,7 @@ ul.plan_feats li span {
     left: 50%;
     margin-top: -20px;
     margin-left: -40px;
-    background: url(../img/psma.png) no-repeat;
+    background: url(../images/psma.png) no-repeat;
   }
 
   .play:hover {
@@ -1086,7 +1086,7 @@ ul.plan_feats li span {
     left: 50%;
     margin-top: -9px;
     margin-left: -20px;
-    background: url(../img/boton.png) no-repeat;
+    background: url(../images/boton.png) no-repeat;
   }
 
   .play:hover {

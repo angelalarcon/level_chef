@@ -1,350 +1,531 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Level Chef</title>
-
-  <!-- Bootstrap -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-
-  <link href="css/style.css" rel="stylesheet">
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<html lang="en" class="app">
+<head>  
+  <meta charset="utf-8" />
+  <title>Level Chef | High Tech in Gastronomic Learning</title>
+  <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="js/jPlayer/jplayer.flat.css" type="text/css" />
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="css/animate.css" type="text/css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" />
+  <link rel="stylesheet" href="css/font.css" type="text/css" />
+  <link rel="stylesheet" href="css/app.css" type="text/css" /> 
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/favicon.png">
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
-    </head>
-    <body>
-
-      <header>
-        <nav class="navbar">
-          <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header valign">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a href="#" class="logo">
-                <img src="img/logo.png" alt="">
-              </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav menu">
-                <li>
-                  <a href="#">LEARN</a>
-                </li>
-                <li>
-                  <a href="#">ABOUT</a>
-                </li>
-                <li>
-                  <a href="#">COMMUNITY</a>
-                </li>
-                <li>
-                  <a href="#">PRICING</a>
-                </li>
-              </ul>
-              <ul class="nav navbar-nav user-menu">
-               <li>
-                  <a href="#">SIGN UP
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span>SIGN IN</span>
-                    <img src="img/avatar.png" alt="">
-                  </a>
-                </li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
-      </header>
-      <section>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-5 col-xs-12">
-              <div class="gris_claro">
-                <div class="row">
-                  <div class="col-md-12">
-                    <h4>The LevelChef Method</h4>
-                  </div> 
-                </div>
-                <ul id="methods">
-                  <li>
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="size_method">
-                          <div class="image_method">
-                            <img src="img/category_img_1.png" alt="">
-                          </div>
-                          <div class="info_method">
-                            About Us <br>
-                            whach individual course in different categories. Choose what you want to learn today   
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="size_method">
-                          <div class="image_method">
-                            <img src="img/category_img_2.png" alt="">
-                          </div>
-                          <div class="info_method">
-                            Features <br>
-                            Organized training from scratch, learn a new sudject step by step from scratch to an advanced level  
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-7 col-xs-12">
-              <div class="gris_oscuro">
-                <div class="container-fluid">
-                  <div class="row valign-wrapper">
-                    <div class="col-xs-12">
-                          <div class="col-md-4 valign">
-                            <div class="row">
-                              <div class="col-md-12">
-                                <div class="texto_categoria view_m_b">
-                                 <h4>LevelChef Categories</h4>
-                                 Learn in different gatronomic topic, guided by international chefs from US and Japan, with interactive training and constant update.<br>
-                                 <div class="view" href="#">
-                                  <a href="#" class=" view_m_b">  
-                                   View all  
-                                 </a>  
-                               </div>
-                             </div>
-                           </div> 
-                         </div> 
-                       </div>
-                       <div class="col-md-8 valign">
-                        <div class="row">
-                          <div class="col-xs-3 text-center">
-                            <div class="circle bakery">
-                              <div class="height"></div>  
-                            </div> 
-                            <h5>Bakery</h5>
-                          </div>
-                          <div class="col-xs-3 text-center">
-                            <div class="circle pastry">  
-                              <div class="height"></div>  
-                            </div> 
-                            <h5>Pastry</h5>
-                          </div>
-                          <div class="col-xs-3 text-center">
-                            <div class="circle gourmet">  
-                              <div class="height"></div>  
-                            </div> 
-                            <h5>Gourmet</h5>
-                          </div>
-                          <div class="col-xs-3 text-center">
-                            <div class="circle azul">  
-                              <div class="height"></div>  
-                            </div> 
-                            <h5>Fundation</h5>
-                          </div> 
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-              <hr>
-              <div class="row valign-wrapper">
-                <div class="col-xs-12">
-                      <div class="col-md-4 valign">
-                        <div class="row">
-                          <div class="col-sm-12">
-                            <div class="texto_categoria view_m_b">
-                             <h4>LevelChef Categories</h4>
-                             Learn in different gatronomic topic, guided by international chefs from US and Japan, with interactive training and constant update.<br>
-                             <div class="view">
-                              <a href="#">  
-                               View all  
-                             </a>
-                           </div>
-                         </div>
-                       </div> 
-                     </div> 
-                   </div>
-                   <div class="col-md-8 valign">
-                    <div class="row">
-                      <div class="col-xs-3 text-center">
-                        <div class="circle azul">  
-                          <div class="height"></div>  
-                        </div> 
-                        <h5>Drinks</h5>
-                      </div>
-                      <div class="col-xs-3 text-center">
-                        <div class="circle azul">  
-                          <div class="height"></div>  
-                        </div> 
-                        <h5>International</h5>
-                      </div>
-                      <div class="col-xs-3 text-center">
-                        <div class="circle azul">  
-                          <div class="height"></div>  
-                        </div> 
-                        <h5>Business</h5>
-                      </div>
-                      <div class="col-xs-3 text-center">
-                        <div class="circle azul">  
-                          <div class="height"></div>  
-                        </div> 
-                        <h5>By Level</h5>
-                      </div> 
-                    </div>
-                  </div>
-                </div>
-          </div>
-        </div>
-      </div>
-    </div>    
-  </div>
-</div>
-</section>
-<section class="fondo_e_aq">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="row">
-          <div class="col-xs-8">
-            <div class="text_e_aq">
-              <p>Transform a trainig cost into an employee benefit.
-                <span class="tras_text_e_aq"> Learm more about group accounts.</span></p>
-              </div>
-            </div>
-            <div class="col-xs-4 user-section text-center">
-              <a href="#"> 
-               Empieza Aqui
-             </a>
-           </div> 
-         </div> 
-       </div>
-     </div>
-   </div> 
- </section>
- <footer>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-8 col-xs-12">
-        <div class="row">
-          <div class="col-xs-4 margin_map">
-            <h4>LevelChef </h4>
-            <a href="#">About Us </a><br>
-            <a href="#">New </a><br>
-            <a href="#">Teach </a><br>
-            <a href="#">Jobs </a><br>
-            <a href="#">Our Chefs </a><br>
-            <a href="#">Press / Media </a>
-          </div>
-          <div class="col-xs-4  margin_map">
-            <h4>Features</h4>
-            <a href="#">Take the tour </a><br>
-            <a href="#">Community </a><br>
-            <a href="#">Pricing </a><br>
-            <a href="#">Raking </a><br>
-            <a href="#">Challengess </a><br>
-            <a href="#">Gaming </a> 
-          </div>
-          <div class="col-xs-4margin_map">
-            <h4>Support</h4>
-            <a href="#">Custmer Support </a><br>
-            <a href="#">Group Learnig </a><br>
-            <a href="#">Helpdesk </a><br>
-            <a href="#">Partners </a><br>
-            <a href="#">Contact Us </a> 
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 ">
-        <div>
-          Susbscribe to the newsletter    
-        </div>
-
-        <form class="form-inline submit-box">
-          <div class="form-group">
-            <div class="input-group">
-              <input type="text" class="form-control" id="exampleInputAmount" placeholder="Email">
-              <div class="input-group-addon submit">
-                <button type="submit">submit</button>
-              </div>
-            </div>
-          </div>
-        </form>
-        <div>
-          follow Us    
-        </div>
-        <div class="facebook size_redes">
-          <div class="logo_redes">
-            <img src="img/facebook_icon.png" alt="">
-          </div>
-          <div class="like">
-            636,723
-          </div>
-        </div>
-        <div class="twitter size_redes">
-          <div class="logo_redes">
-            <img src="img/twitter_icon.png" alt="">
-          </div>
-          <div class="like">
-            636,723
-          </div>
-        </div>
-        <div class="google size_redes">
-          <div class="logo_redes">
-            <img src="img/googleplus_icon.png" alt="">
-          </div>
-          <div class="like">
-            636,723
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>  
-  <div class="copy">
-    <div class="container">
-      <div class="row valign-wrapper">
-        <div class="col-xs-2 valign">
-          <img src="img/logo_footer.png" alt="">
-        </div>
-        <div class="col-xs-7 valign">
-          <div class="text_copy">
-            <small>
-              Copyright © 2014-2015 LevelChefs. All logo and trademarks are the propieteries of their respective owners.
-            </small>
-          </div>
-        </div>
-        <div class="col-xs-3 valign text-right">
-          <a href="#">
-            <span>Privacy | Terms</span>
+    <script src="js/ie/html5shiv.js"></script>
+    <script src="js/ie/respond.min.js"></script>
+    <script src="js/ie/excanvas.js"></script>
+  <![endif]-->
+  <!--METRO PLUGIN RELATED SCRIPTS AND STYLES-->   
+        <link rel="stylesheet" href="metro_assets/metro.css">                             
+        
+  <!--END METRO PLUGIN RELATED SCRIPTS AND STYLES-->  
+</head>
+<body class="">
+  <section class="vbox">
+    <header class="bg-black header header-md navbar navbar-fixed-top-xs">
+      <div class="navbar-header aside bg-info dk nav-xs">
+        <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html">
+          <i class="icon-list"></i>
+        </a>
+        <a href="index.html" class="navbar-brand text-lt">
+          <img src="images/as.png" alt="." >
+          <span class="hidden-nav-xs m-l-sm"> <img src="images/logo.png" alt="." ></span>
+        </a>
+        <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".user">
+          <i class="icon-settings"></i>
+        </a>
+      </div>      <ul class="nav navbar-nav hidden-xs">
+        <li>
+          <a href="#nav,.navbar-header" data-toggle="class:nav-xs,nav-xs" class="text-muted">
+            <i class="fa fa-indent text"></i>
+            <i class="fa fa-dedent text-active"></i>
           </a>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left input-s-lg m-t m-l-n-xs hidden-xs" role="search">
+        <div class="form-group">
+          <div class="input-group">
+            <span class="input-group-btn">
+              <button type="submit" class="btn btn-sm bg-socl btn-icon"><i class="fa fa-search"></i></button>
+            </span>
+            <input type="text" class="form-control input-sm no-border bg-socl" placeholder="Search lessons, courses...">
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</footer>
+      </form>
+      <div class="navbar-right ">
+        <ul class="nav navbar-nav m-n hidden-xs nav-user user">
+          <li class="hidden-xs">
+            <a href="#" class="dropdown-toggle lt" data-toggle="dropdown">
+              <i class="icon-bell"></i>
+              <span class="badge badge-sm up bg-danger count">2</span>
+            </a>
+            <section class="dropdown-menu aside-xl animated fadeInUp">
+              <section class="panel bg-white">
+                <div class="panel-heading b-light bg-light">
+                  <strong>You have <span class="count">2</span> notifications</strong>
+                </div>
+                <div class="list-group list-group-alt">
+                  <a href="#" class="media list-group-item">
+                    <span class="pull-left thumb-sm">
+                      <img src="images/a0.png" alt="..." class="img-circle">
+                    </span>
+                    <span class="media-body block m-b-none">
+                      Use awesome animate.css<br>
+                      <small class="text-muted">10 minutes ago</small>
+                    </span>
+                  </a>
+                  <a href="#" class="media list-group-item">
+                    <span class="media-body block m-b-none">
+                      1.0 initial released<br>
+                      <small class="text-muted">1 hour ago</small>
+                    </span>
+                  </a>
+                </div>
+                <div class="panel-footer text-sm">
+                  <a href="#" class="pull-right"><i class="fa fa-cog"></i></a>
+                  <a href="#notes" data-toggle="class:show animated fadeInRight">See all the notifications</a>
+                </div>
+              </section>
+            </section>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle bg clear" data-toggle="dropdown">
+              <span class="thumb-sm avatar pull-right m-t-n-sm m-b-n-sm m-l-sm">
+                <img src="images/a0.png" alt="...">
+              </span>
+              Akane Tsu <b class="caret"></b>
+            </a>
+            <section class="dropdown-menu aside-lg bg-white on animated fadeInLeft">
+            <div class="row m-l-none m-r-none m-t m-b text-center">
+			  <div class="col-xs-4">
+                <div class="padder-v">
+                  <a href="profile.html">
+                    <span class="m-b-xs block">
+                       <i class="fa bookm"></i>
+                    </span>
+                    <small class="text-muted">Profile</small>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="padder-v">
+                  <a href="bookmarks.html">
+                    <span class="m-b-xs block">
+                       <i class="fa bookm2"></i>
+                    </span>
+                    <small class="text-muted">Bookmarks</small>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="padder-v">
+                  <a href="playlists.html">
+                    <span class="m-b-xs block">
+                      <i class="fa bookm6"></i>
+                    </span>
+                    <small class="text-muted">Playlists</small>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="padder-v">
+                  <a href="certificates.html">
+                    <span class="m-b-xs block">
+                      <i class="fa bookm3"></i>
+                    </span>
+                    <small class="text-muted">Certificates</small>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="padder-v">
+                  <a href="settings.html">
+                    <span class="m-b-xs block">
+                      <i class="fa bookm4"></i>
+                    </span>
+                    <small class="text-muted">Settings</small>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="padder-v">
+                  <a href="signin.html">
+                    <span class="m-b-xs block">
+                      <i class="fa bookm5"></i>
+                    </span>
+                    <small class="text-muted">Sign Out</small>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          </li>
+        </ul>
+      </div>      
+    </header>
+    <section>
+      <section class="hbox stretch">
+        <!-- .aside -->
+        <aside class="bg-black dk nav-xs aside hidden-print" id="nav">          
+          <section class="vbox">
+            <section class="w-f-md scrollable">
+              <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="10px" data-railOpacity="0.2">
+                
 
 
+                <!-- nav -->                 
+                <nav class="nav-primary hidden-xs">
+                  <ul class="nav bg clearfix">
+                    <li class="hidden-nav-xs padder m-t m-b-sm text-xs text-muted">
+                      Learn
+                    </li>
+                    <li>
+                      <a href="courses.html">
+                         <i class="fa fa-play icon bg-info"></i>
+                        <span class="font-bold">Courses</span>
+                      </a>
+                    </li>
+					
+					<li>
+                      <a href="paths.html">
+                         <i><img src="images/ics.png" alt="..."></i>
+                        <span class="font-bold">Learning Paths</span>
+                      </a>
+                    </li>
+                    <li class="m-b hidden-nav-xs"></li>
+                  </ul>
+                  <ul class="nav" data-ride="collapse">
+                    <li class="hidden-nav-xs padder m-t m-b-sm text-xs text-muted">
+                      More
+                    </li>
+					<li>
+                      <a href="#">
+					    <span class="pull-right text-muted">
+                          <i class="fa fa-angle-left text"></i>
+                          <i class="fa fa-angle-down text-active"></i>
+                        </span>
+                        <i><img src="images/hel.png" alt="..."></i>
+                        <span class="font-bold">Community</span>
+                      </a>
+					  <ul class="nav dk text-sm">
+                        <li >
+                          <a href="helpdesk.html" class="auto">                                                        
+                            <i class="fa fa-angle-right text-xs"></i>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+                            <span>Helpdesk</span>
+                          </a>
+                        </li>
+						<li >
+                          <a href="community.html" class="auto">                                                        
+                            <i class="fa fa-angle-right text-xs"></i>
+
+                            <span>Forum</span>
+                          </a>
+                        </li>
+						<li >
+                          <a href="blog.html" class="auto">                                                        
+                            <i class="fa fa-angle-right text-xs"></i>
+
+                            <span>Blog</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li >
+                      <a href="#" class="auto">
+                        <span class="pull-right text-muted">
+                          <i class="fa fa-angle-left text"></i>
+                          <i class="fa fa-angle-down text-active"></i>
+                        </span>
+                         <i><img src="images/sal.png" alt="..."></i>
+                        <span>Level Chef</span>
+                      </a>
+                      <ul class="nav dk text-sm">
+                        <li >
+                          <a href="about.html" class="auto">                                                        
+                            <i class="fa fa-angle-right text-xs"></i>
+
+                            <span>About Us</span>
+                          </a>
+                        </li>
+						<li >
+                          <a href="features.html" class="auto">                                                        
+                            <i class="fa fa-angle-right text-xs"></i>
+
+                            <span>Features</span>
+                          </a>
+                        </li>
+						<li >
+                          <a href="pricing.html" class="auto">                                                        
+                            <i class="fa fa-angle-right text-xs"></i>
+
+                            <span>Pricing</span>
+                          </a>
+                        </li>
+						<li >
+                          <a href="press.html" class="auto">                                                        
+                            <i class="fa fa-angle-right text-xs"></i>
+
+                            <span>Press / Media</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+					<li>
+                      <a href="store.html" class="auto">
+                        <span class="pull-right text-muted">
+                        </span>
+                        <i><img src="images/cart.png" alt="..."></i>
+                        <span>Store</span>
+                      </a>
+                    </li>
+					
+                  </ul>
+                </nav>
+                <!-- / nav -->
+              </div>
+            </section>
+            
+            <footer class="footer hidden-xs no-padder text-center-nav-xs">
+              <div class="bg hidden-xs ">
+                  <div class="dropdown dropup wrapper-sm clearfix">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" rel="tooltip" data-placement="top" title="Help!">
+                      <span class="thumb-sm avatar pull-left m-l-xs">                        
+                        <img src="images/a3.png" class="dker" alt="...">
+                        <i class="on b-black"></i>
+                      </span>
+                      <span class="hidden-nav-xs clear">
+                        <span class="block m-l">
+                          <strong class="font-bold text-lt">Chris Redfield</strong> 
+                          <b class="caret"></b>
+                        </span>
+                        <span class="text-muted text-xs block m-l">Osaka | Japan</span>
+                      </span>
+                    </a>
+                    <ul class="dropdown-menu animated fadeInRight aside text-left">                      
+                      <li>
+                <a href="support.html">Tutor & Support</a>
+              </li>
+              <li>
+                <a href="maila.html">
+                  <span class="badge bg-danger pull-right">3</span>
+                  Inbox
+                </a>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <a href="modal.lockme.html" data-toggle="ajaxModal" >Sign Out</a>
+				
+              </li>
+                    </ul>
+                  </div>
+                </div>            </footer>
+          </section>
+        </aside>
+        <!-- /.aside -->
+        <section id="content">
+          <section class="vbox">
+          <section class="scrollable" style="background-image: url('images/bg-blur6.jpg');">
+		  <div class="carousel slide auto" data-interval="6000">
+		  <div class="carousel-inner">
+                    <div class="item active opacity bg-white">
+                      <div class="item-overlayz animated fadeInDown wrapper  centro text-center">
+                        <p class="text-white text-lt font-bold text-u-c h3">BECOME A GASTRONOMY MASTER</p>
+						<p class="hidden-xs">LEVEL CHEF PROVIDES A COMPLETE EDUCATIONAL RESOURCE IN GASTRONOMY<BR>WE HELP PEOPLE TO REACH AMAZING RESULTS WITH VIDEO-BASED TUTORIALS AND TRAINING.</p>
+                   
+						<div class="doc-buttons">
+                          <a href="pricing.html" class="btn btn-s-md btn-danger"><i class="fa fa-play"></i> Become a member</a>
+						  <a href="about.html" class="btn btn-s-md btn-success"><i class="fa fa-info"></i> Learn more about us</a>
+						</div>
+                      </div>
+                      <a href="#"><img src="images/lol2.jpg" alt="" class="img-full"></a>
+                    </div>
+          </div>
+		  </div>
+		   
+             <!--METRO GALLERY-->
+            <div class="skmetro" data-initialload="8" data-loadmore="4">              
+
+                <!--metro items-->
+                <div class="skmetro_ui">
+                    
+					<!--image example-->
+                    <div class="metro_item w70" data-type="image">
+                        <a href="metro_assets/images/orange.jpg" data-imagelarge="metro_assets/images/umbrella.jpg"></a>
+                        <div class="metro-caption">IT TAKES MORE THAN CAPITAL TO SWING BUSINESS</div>
+                    </div>
+                    <!--/image example-->
+
+                    <!--soundcloud example-->
+                    <div class="metro_item w30" data-type="audio">
+                        <a href="metro_assets/images/road.jpg"></a>
+                        <div class="metro-caption">BUENOS AIRES MIX</div>
+                        <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/70369234&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+                    </div>
+                    <!--/soundcloud example-->
+
+                    <!--metro example-->
+                    <div class="metro_item w30" data-type="image" data-external-url="http://codecanyon.net/user/jayc/portfolio" data-target="_blank">
+                        <a href="metro_assets/images/umbrella.jpg" /></a>
+                        <div class="metro-cover" data-backgroundcolor="33ab0b" data-textcolor="FFFFFF">
+                            <img class="metro-thumb" src="metro_assets/images/calendar_small.png" alt="" />
+                            <p class="metro-text">Photoshoot Day 1</p>
+                        </div>                        
+                    </div>   
+                    <!--/metro example-->                 
+
+                    <!--video example-->
+                    <div class="metro_item w30" data-type="video">
+                        <a href="metro_assets/images/lady.jpg"></a>
+                        <iframe width="560" height="315" src="http://www.youtube.com/embed/WCFI3FH4jpc" frameborder="0" allowfullscreen></iframe>
+                        <div class="metro-caption">SPACE NOISE - The video?</div>
+                    </div>
+                    <!--/video example-->
+
+                    <!--image example-->
+                    <div class="metro_item w40" data-type="image">
+                        <a href="metro_assets/images/umbrella.jpg" data-imagelarge="metro_assets/images/umbrella_large.jpg"></a>
+                    </div>
+                    <!--/image example--> 
+
+                    <!--image example-->
+                    <div class="metro_item w30" data-type="image">
+                        <a href="metro_assets/images/lady_red.jpg" data-imagelarge="metro_assets/images/lady_red_large.jpg"></a>
+                    </div>
+                    <!--/image example-->  
+
+
+                    <!--metro example-->
+                    <div class="metro_item w15" data-type="image" data-external-url="http://codecanyon.net/user/jayc/portfolio" data-target="_blank">
+                        <a href="metro_assets/images/umbrella.jpg" /></a>
+                        <div class="metro-cover" data-backgroundcolor="a000a8" data-textcolor="FFFFFF">
+                            <img class="metro-thumb" src="metro_assets/images/yahoo_small.png" alt="" />
+                            <p class="metro-text">Chat</p>
+                        </div>                        
+                    </div>   
+                    <!--/metro example-->    
+
+
+                    <!--metro example-->
+                    <div class="metro_item w15" data-type="image" data-external-url="http://codecanyon.net/user/jayc/portfolio" data-target="_blank">
+                        <a href="metro_assets/images/umbrella.jpg" /></a>
+                        <div class="metro-cover" data-backgroundcolor="0a56bf" data-textcolor="FFFFFF">
+                            <img class="metro-thumb" src="metro_assets/images/twitter_small1.png" alt="" />
+                            <p class="metro-text">follow us</p>
+                        </div>                        
+                    </div>   
+                    <!--/metro example-->    
+
+
+                    <!--image example-->
+                    <div class="metro_item w40" data-type="image">
+                        <a href="metro_assets/images/plane.jpg" data-imagelarge="metro_assets/images/plane_large.jpg"></a>
+                    </div>
+                    <!--/image example-->   
+
+
+                    <!--metro example-->
+                    <div class="metro_item w30" data-type="image" data-external-url="http://codecanyon.net/user/jayc/portfolio" data-target="_blank">
+                        <a href="metro_assets/images/umbrella.jpg" /></a>
+                        <div class="metro-cover" data-backgroundcolor="da542d" data-textcolor="FFFFFF">
+                            <img class="metro-thumb" src="metro_assets/images/git_repo.png" alt="" />
+                            <p class="metro-text">The repo</p>
+                        </div>                        
+                    </div>   
+                    <!--/metro example-->
+                    
+
+                    <!--image example-->
+                    <div class="metro_item w30" data-type="image">
+                        <a href="metro_assets/images/time.jpg" data-imagelarge="metro_assets/images/time_large.jpg"></a>
+                    </div>
+                    <!--/image example-->
+
+
+                    <!--image example-->
+                    <div class="metro_item w30" data-type="image">
+                        <a href="metro_assets/images/lady2.jpg" data-imagelarge="metro_assets/images/lady2_large.jpg"></a>
+                    </div>
+                    <!--/image example-->  
+
+                    <!--image example-->
+                    <div class="metro_item w40" data-type="image">
+                        <a href="metro_assets/images/lady3.jpg" data-imagelarge="metro_assets/images/lady3_large.jpg"></a>
+                    </div>
+                    <!--/image example-->    
+
+                    <!--image example-->
+                    <div class="metro_item w30" data-type="image">
+                        <a href="metro_assets/images/lady4.jpg" data-imagelarge="metro_assets/images/lady4_large.jpg"></a>
+                    </div>
+                    <!--/image example--> 
+
+
+                    <!--image example-->
+                    <div class="metro_item w30" data-type="image">
+                        <a href="metro_assets/images/asian_woman.jpg" data-imagelarge="metro_assets/images/asian_woman_large.jpg"></a>
+                    </div>
+                    <!--/image example--> 
+
+
+                    <!--image example-->
+                    <div class="metro_item w40" data-type="image">
+                        <a href="metro_assets/images/dancing_girls.jpg" data-imagelarge="metro_assets/images/dancing_girls_large.jpg"></a>
+                    </div>
+                    <!--/image example--> 
+
+                    <!--image example-->
+                    <div class="metro_item w30" data-type="image">
+                        <a href="metro_assets/images/shift.jpg" data-imagelarge="metro_assets/images/shift_large.jpg"></a>
+                    </div>
+                    <!--/image example-->
+
+                    <!--image example-->
+                    <div class="metro_item w30" data-type="image">
+                        <a href="metro_assets/images/audi.jpg" data-imagelarge="metro_assets/images/audi_large.jpg"></a>
+                    </div>
+                    <!--/image example-->                             
+					
+                </div>
+                <!--/metro items-->
+
+                <!--metro load more-->
+                <div class="loadMoreContainer"><div class="sk_preloader">
+                    <img src="metro_assets/img/preloader.gif" alt=""></div>
+                    <a class="skLoadMoreLink">Load more</a>
+                </div>
+                <!--metro load more-->
+
+            </div>
+            <!--/METRO GALLERY-->     
+          </section>
+        </section>
+          <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen,open" data-target="#nav,html"></a>
+        </section>
+      </section>
+    </section>    
+  </section>
+  <script src="js/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.js"></script>
+  <!-- App -->
+  <script src="js/app.js"></script>  
+  <script src="js/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="js/masonry/tiles.min.js"></script>
+  <script src="js/masonry/demo.js"></script>
+  <script src="js/app.plugin.js"></script>
+  <script type="text/javascript" src="js/jPlayer/jquery.jplayer.min.js"></script>
+  <script type="text/javascript" src="js/jPlayer/add-on/jplayer.playlist.min.js"></script>
+  <script type="text/javascript" src="js/jPlayer/demo.js"></script>
+  <!-- metro assets -->
+  <script src="metro_assets/jquery-1.11.2.min.js"></script>
+  <script src="metro_assets/TweenMax.min.js"></script>                
+  <script type="text/javascript" src="metro_assets/packery.pkgd.min.js"></script>
+  <script type="text/javascript" src="metro_assets/metro.js"></script>
+  <!-- metro assets -->
 </body>
 </html>
-

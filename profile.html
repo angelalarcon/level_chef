@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="en" class="app">
+<head>  
+  <meta charset="utf-8" />
+  <title>Level Chef | Profile</title>
+  <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="js/jPlayer/jplayer.flat.css" type="text/css" />
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="css/animate.css" type="text/css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" />
+  <link rel="stylesheet" href="css/font.css" type="text/css" />
+  <link rel="stylesheet" href="css/app.css" type="text/css" />  
+    <!--[if lt IE 9]>
+    <script src="js/ie/html5shiv.js"></script>
+    <script src="js/ie/respond.min.js"></script>
+    <script src="js/ie/excanvas.js"></script>
+  <![endif]-->
+</head>
+<body class="">
+  <section class="vbox">
+    <header class="bg-black header header-md navbar navbar-fixed-top-xs">
+      <div class="navbar-header aside bg-info dk nav-xs">
+        <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html">
+          <i class="icon-list"></i>
+        </a>
+        <a href="index.html" class="navbar-brand text-lt">
+          <img src="images/as.png" alt="." >
+          <span class="hidden-nav-xs m-l-sm"> <img src="images/logo.png" alt="." ></span>
+        </a>
+        <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".user">
+          <i class="icon-settings"></i>
+        </a>
+      </div>      <ul class="nav navbar-nav hidden-xs">
+        <li>
+          <a href="#nav,.navbar-header" data-toggle="class:nav-xs,nav-xs" class="text-muted">
+            <i class="fa fa-indent text"></i>
+            <i class="fa fa-dedent text-active"></i>
+          </a>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left input-s-lg m-t m-l-n-xs hidden-xs" role="search">
+        <div class="form-group">
+          <div class="input-group">
+            <span class="input-group-btn">
+              <button type="submit" class="btn btn-sm bg-socl btn-icon"><i class="fa fa-search"></i></button>
+            </span>
+            <input type="text" class="form-control input-sm no-border bg-socl" placeholder="Search lessons, courses...">
+          </div>
+        </div>
+      </form>
+      <div class="navbar-right ">
+        <ul class="nav navbar-nav m-n hidden-xs nav-user user">
+          <li class="hidden-xs">
+            <a href="#" class="dropdown-toggle lt" data-toggle="dropdown">
+              <i class="icon-bell"></i>
+              <span class="badge badge-sm up bg-danger count">2</span>
+            </a>
+            <section class="dropdown-menu aside-xl animated fadeInUp">
+              <section class="panel bg-white">
+                <div class="panel-heading b-light bg-light">
+                  <strong>You have <span class="count">2</span> notifications</strong>
+                </div>
+                <div class="list-group list-group-alt">
+                  <a href="#" class="media list-group-item">
+                    <span class="pull-left thumb-sm">
+                      <img src="images/a0.png" alt="..." class="img-circle">
+                    </span>
+                    <span class="media-body block m-b-none">
+                      Use awesome animate.css<br>
+                      <small class="text-muted">10 minutes ago</small>
+                    </span>
+                  </a>
+                  <a href="#" class="media list-group-item">
+                    <span class="media-body block m-b-none">
+                      1.0 initial released<br>
+                      <small class="text-muted">1 hour ago</small>
+                    </span>
+                  </a>
+                </div>
+                <div class="panel-footer text-sm">
+                  <a href="#" class="pull-right"><i class="fa fa-cog"></i></a>
+                  <a href="#notes" data-toggle="class:show animated fadeInRight">See all the notifications</a>
+                </div>
+              </section>
+            </section>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle bg clear" data-toggle="dropdown">
+              <span class="thumb-sm avatar pull-right m-t-n-sm m-b-n-sm m-l-sm">
+                <img src="images/a0.png" alt="...">
+              </span>
+              Akane Tsu <b class="caret"></b>
+            </a>
+            <section class="dropdown-menu aside-lg bg-white on animated fadeInLeft">
+            <div class="row m-l-none m-r-none m-t m-b text-center">
+			  <div class="col-xs-4">
+                <div class="padder-v">
+                  <a href="profile.html">
+                    <span class="m-b-xs block">
+                       <i class="fa bookm"></i>
+                    </span>
+                    <small class="text-muted">Profile</small>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="padder-v">
+                  <a href="bookmarks.html">
+                    <span class="m-b-xs block">
+                       <i class="fa bookm2"></i>
+                    </span>
+                    <small class="text-muted">Bookmarks</small>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="padder-v">
+                  <a href="playlists.html">
+                    <span class="m-b-xs block">
+                      <i class="fa bookm6"></i>
+                    </span>
+                    <small class="text-muted">Playlists</small>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="padder-v">
+                  <a href="certificates.html">
+                    <span class="m-b-xs block">
+                      <i class="fa bookm3"></i>
+                    </span>
+                    <small class="text-muted">Certificates</small>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="padder-v">
+                  <a href="settings.html">
+                    <span class="m-b-xs block">
+                      <i class="fa bookm4"></i>
+                    </span>
+                    <small class="text-muted">Settings</small>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="padder-v">
+                  <a href="signin.html">
+                    <span class="m-b-xs block">
+                      <i class="fa bookm5"></i>
+                    </span>
+                    <small class="text-muted">Sign Out</small>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          </li>
+        </ul>
+      </div>      
+    </header>
+    <section>
+      <section class="hbox stretch">
+        <!-- .aside -->
+        <aside class="bg-black dk nav-xs aside hidden-print" id="nav">          
+          <section class="vbox">
+            <section class="w-f-md scrollable">
+              <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="10px" data-railOpacity="0.2">
+                
+
+
+                <!-- nav -->                 
+                <nav class="nav-primary hidden-xs">
+                  <ul class="nav bg clearfix">
+                    <li class="hidden-nav-xs padder m-t m-b-sm text-xs text-muted">
+                      Learn
+                    </li>
+                    <li>
+                      <a href="courses.html">
+                         <i class="fa fa-play icon bg-info"></i>
+                        <span class="font-bold">Courses</span>
+                      </a>
+                    </li>
+					
+					<li>
+                      <a href="paths.html">
+                         <i><img src="images/ics.png" alt="..."></i>
+                        <span class="font-bold">Learning Paths</span>
+                      </a>
+                    </li>
+                    <li class="m-b hidden-nav-xs"></li>
+                  </ul>
+                  <ul class="nav" data-ride="collapse">
+                    <li class="hidden-nav-xs padder m-t m-b-sm text-xs text-muted">
+                      More
+                    </li>
+					<li>
+                      <a href="#">
+					    <span class="pull-right text-muted">
+                          <i class="fa fa-angle-left text"></i>
+                          <i class="fa fa-angle-down text-active"></i>
+                        </span>
+                        <i><img src="images/hel.png" alt="..."></i>
+                        <span class="font-bold">Community</span>
+                      </a>
+					  <ul class="nav dk text-sm">
+                        <li >
+                          <a href="helpdesk.html" class="auto">                                                        
+                            <i class="fa fa-angle-right text-xs"></i>
+
+                            <span>Helpdesk</span>
+                          </a>
+                        </li>
+						<li >
+                          <a href="community.html" class="auto">                                                        
+                            <i class="fa fa-angle-right text-xs"></i>
+
+                            <span>Forum</span>
+                          </a>
+                        </li>
+						<li >
+                          <a href="blog.html" class="auto">                                                        
+                            <i class="fa fa-angle-right text-xs"></i>
+
+                            <span>Blog</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li >
+                      <a href="#" class="auto">
+                        <span class="pull-right text-muted">
+                          <i class="fa fa-angle-left text"></i>
+                          <i class="fa fa-angle-down text-active"></i>
+                        </span>
+                         <i><img src="images/sal.png" alt="..."></i>
+                        <span>Level Chef</span>
+                      </a>
+                      <ul class="nav dk text-sm">
+                        <li >
+                          <a href="about.html" class="auto">                                                        
+                            <i class="fa fa-angle-right text-xs"></i>
+
+                            <span>About Us</span>
+                          </a>
+                        </li>
+						<li >
+                          <a href="features.html" class="auto">                                                        
+                            <i class="fa fa-angle-right text-xs"></i>
+
+                            <span>Features</span>
+                          </a>
+                        </li>
+						<li >
+                          <a href="pricing.html" class="auto">                                                        
+                            <i class="fa fa-angle-right text-xs"></i>
+
+                            <span>Pricing</span>
+                          </a>
+                        </li>
+						<li >
+                          <a href="press.html" class="auto">                                                        
+                            <i class="fa fa-angle-right text-xs"></i>
+
+                            <span>Press / Media</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+					<li>
+                      <a href="store.html" class="auto">
+                        <span class="pull-right text-muted">
+                        </span>
+                        <i><img src="images/cart.png" alt="..."></i>
+                        <span>Store</span>
+                      </a>
+                    </li>
+					
+                  </ul>
+                </nav>
+                <!-- / nav -->
+              </div>
+            </section>
+            
+            <footer class="footer hidden-xs no-padder text-center-nav-xs">
+              <div class="bg hidden-xs ">
+                  <div class="dropdown dropup wrapper-sm clearfix">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" rel="tooltip" data-placement="top" title="Help!">
+                      <span class="thumb-sm avatar pull-left m-l-xs">                        
+                        <img src="images/a3.png" class="dker" alt="...">
+                        <i class="on b-black"></i>
+                      </span>
+                      <span class="hidden-nav-xs clear">
+                        <span class="block m-l">
+                          <strong class="font-bold text-lt">Chris Redfield</strong> 
+                          <b class="caret"></b>
+                        </span>
+                        <span class="text-muted text-xs block m-l">Osaka | Japan</span>
+                      </span>
+                    </a>
+                    <ul class="dropdown-menu animated fadeInRight aside text-left">                      
+                      <li>
+                <a href="support.html">Tutor & Support</a>
+              </li>
+              <li>
+                <a href="maila.html">
+                  <span class="badge bg-danger pull-right">3</span>
+                  Inbox
+                </a>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <a href="modal.lockme.html" data-toggle="ajaxModal" >Sign Out</a>
+				
+              </li>
+                    </ul>
+                  </div>
+                </div>            </footer>
+          </section>
+        </aside>
+        <!-- /.aside -->
+        <section id="content">
+          <section class="vbox">
+            <section class="scrollable">
+              <section class="hbox stretch">
+                <aside class="aside-md bg-light lter b-r">
+                  <section class="vbox">
+                    <section class="scrollable">
+                      <div class="wrapper bg-bo">
+                        <div class="text-center m-b m-t">
+                          <div class="panel-body">
+                      <div class="clearfix text-center m-t">
+                        <div class="inline">
+                          <div class="easypiechart" data-percent="75" data-line-width="5" data-bar-color="#4cc0c1" data-track-Color="#f5f5f5" data-scale-Color="false" data-size="134" data-line-cap='butt' data-animate="1000">
+                            <div class="thumb-lg" data-toggle="tooltip" data-original-title="Profile 75% complete">
+                              <img src="images/a2.png" class="img-circle" alt="...">
+                            </div>
+                          </div>
+                          <div class="h4 m-t m-b-xs">Tsunemori Akane</div>
+                          <small class="text-muted m-b">Osaka | Japan</small>
+                        </div>                            
+                      </div>
+                    </div>           
+                        <div class="progress progress-sm m-t-sm">
+                          <div class="progress-bar bg-success" data-toggle="tooltip" data-original-title="Level 40" style="width: 40%"></div>
+                        </div>					  
+                        </div>
+                        <div class="panel wrapper">
+                          <div class="row text-center">
+                            <div class="col-xs-6">
+                              <a href="#">
+                                <span class="m-b-xs h4 block">45</span>
+                                <small class="text-muted">Learning hours</small>
+                              </a>
+                            </div>
+                            <div class="col-xs-6">
+                              <a href="#">
+                                <span class="m-b-xs h4 block">5</span>
+                                <small class="text-muted">Courses accomplished</small>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="btn-group btn-group-justified m-b">
+                          <a class="btn btn-danger" data-toggle="button">
+                            <span class="text">
+                              <i class="fa fa-flash"></i> Challenge
+                            </span>
+                            <span class="text-active">
+                              <i class="fa fa-flash"></i> Challenged
+                            </span>
+                          </a>
+                          <a href="modal-mail.html" class="btn btn-success">
+                            <i class="fa fa-envelope"></i> Message
+                          </a>
+                        </div>
+                        <div>
+                          <small class="text-uc text-xs text-muted">Background</small>
+                          <p>Art Institute of Philadelphia Culinary</p>
+                          <small class="text-uc text-xs text-muted">About</small>
+                          <p>My cooking style originates from the streets of northern Thailand all the way down to the southern tip. I have lived all around Thailand learning about local dishes and different local ingredients. When I make my own curry paste I always make it from scratch. In regards to which ingredient or herbs I use in a dish, I carefully select the best ingredients I believe suits the dish well. I make Thai food that even leaves Thai people wanting more!</p>
+                          <div class="line"></div>
+                          <small class="text-uc text-xs text-muted">Conecta</small>
+                          <p class="m-t-sm">
+                            <a href="#" class="btn  btn-twit btn-icon"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="btn  btn-facebook btn-icon"><i class="fa fa-facebook"></i></a>
+                          </p>
+                        </div>
+                      </div>
+                    </section>
+                  </section>
+                </aside>
+                <aside class="bg-white aside-xxl">
+                  <section class="vbox">
+                    <header class="header bg-light lt">
+                      <ul class="nav nav-tabs nav-white">
+                        <li class="active"><a href="#activity" data-toggle="tab">Resume</a></li>
+                        <li class=""><a href="#interaction" data-toggle="tab">Achievements</a></li>
+						<li class=""><a href="#progress" data-toggle="tab">Progress</a></li>
+						<li class=""><a href="#chat" data-toggle="tab">Talk with a tutor</a></li>
+                      </ul>
+                    </header>
+                    <section class="scrollable">
+                      <div class="tab-content">
+                        <div class="tab-pane active" id="activity">
+				  
+						  
+                          <ul class="list-group no-radius m-b-none m-t-n-xxs list-group-lg no-border">
+                            <li class="list-group-item">
+                              <a href="#" class="thumb-sm pull-left m-r-sm">
+                                <img src="images/a0.png" >
+                              </a>
+                              <a href="#" class="clear">
+                                <small class="pull-right">hace 3 minutos</small>
+                                <strong class="block linkear">Jason te ha desafiado a duelo</strong>
+                                <small>Quien complete el próximo test con la mayor nota recibe 100 rupias del perdedor.</small>
+                              </a>
+                            </li>
+                            <li class="list-group-item">
+                              <a href="#" class="thumb-sm pull-left m-r-sm">
+                                <img src="images/logro.png">
+                              </a>
+                              <a href="#" class="clear">
+                                <small class="pull-right">Hace 2 horas</small>
+                                <strong class="block linkear">Logro desbloqueado</strong>
+                                <small>Supremacía: consigue estar de número 1 en el ranking por 2 semanas seguidas.</small>
+                              </a>
+                            </li>
+                            <li class="list-group-item">
+                              <a href="#" class="thumb-sm pull-left m-r-sm">
+                                <img src="images/birrete.png">
+                              </a>
+                              <a href="#" class="clear">
+                                <small class="pull-right">Hace 1 mes</small>
+                                <strong class="block linkear">Completó una guía de aprendizaje</strong>
+                                <small>Primeros auxilios avanzados desde cero.</small>
+                              </a>
+                            </li>
+                            <li class="list-group-item">
+                              <a href="#" class="thumb-sm pull-left m-r-sm">
+                                <img src="images/reloj.png">
+                              </a>
+                              <a href="#" class="clear">
+                                <small class="pull-right">Hace 2 meses</small>
+                                <strong class="block linkear">Asistió a un curso en vivo</strong>
+                                <small>Disección de cadaveres con cucharilla de plástico.</small>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="tab-pane" id="chat">
+                          <div class="text-left wrapper">
+                           <!-- chat -->
+                    <section class="chat-list panel-body">
+                      <article id="chat-id-1" class="chat-item left">
+                        <a href="#" class="pull-left thumb-sm avatar"><img src="images/yo.png" alt="..."></a>
+                        <section class="chat-body">
+                          <div class="panel b-light text-sm m-b-none">
+                            <div class="panel-body">
+                              <span class="arrow left"></span>
+                              <p class="m-b-none">Hi, my name is Zad and i'm here to help you. If you have any doubt during your training just write here and i'll answer as soon as possible. </p>
+                            </div>
+                          </div>
+                          <small class="text-muted"><i class="fa fa-ok text-success"></i>2 minutes ago</small>
+                        </section>
+                      </article>
+                      <article id="chat-id-2" class="chat-item right">
+                        <a href="#" class="pull-right thumb-sm avatar"><img src="images/a3.png" class="img-circle" alt="..."></a>
+                        <section class="chat-body">                      
+                          <div class="panel bg-light text-sm m-b-none">
+                            <div class="panel-body">
+                              <span class="arrow right"></span>
+                              <p class="m-b-none">What is baking mix? What can I substitute for it?</p>
+                            </div>
+                          </div>
+                          <small class="text-muted">1 minute ago</small>
+                        </section>
+                      </article>  
+                       <article id="chat-id-1" class="chat-item left">
+                        <a href="#" class="pull-left thumb-sm avatar"><img src="images/yo.png" alt="..."></a>
+                        <section class="chat-body">
+                          <div class="panel b-light text-sm m-b-none">
+                            <div class="panel-body">
+                              <span class="arrow left"></span>
+                              <p class="m-b-none">Baking mix or biscuit baking mix is a mixture of all-purpose flour, baking powder, salt, and other ingredients. It is sold under a variety of brand names. We have a recipe for a homemade version: <a href="#">Easy Biscuit Mixture.</a></p>
+                            </div>
+                          </div>
+                          <small class="text-muted"><i class="fa fa-ok text-success"></i> 30 seconds ago</small>
+                        </section>
+                      </article>	
+                    <article id="chat-id-2" class="chat-item right">
+                        <a href="#" class="pull-right thumb-sm avatar"><img src="images/a3.png" class="img-circle" alt="..."></a>
+                        <section class="chat-body">                      
+                          <div class="panel bg-light text-sm m-b-none">
+                            <div class="panel-body">
+                              <span class="arrow right"></span>
+                              <p class="m-b-none">Thanks!</p>
+                            </div>
+                          </div>
+                          <small class="text-muted">10 seconds ago</small>
+                        </section>
+                      </article>  					  
+                    </section>
+                    <footer class="panel-footer">
+                      <!-- chat form -->
+                      <article class="chat-item" id="chat-form">
+                        <a class="pull-left thumb-sm avatar"><img src="images/a3.png" class="img-circle" alt="..."></a>
+                        <section class="chat-body">
+                          <form action="index.html" class="m-b-none">
+                            <div class="input-group">
+                              <input type="text" class="form-control" placeholder="Ask to your tutor">
+                              <span class="input-group-btn">
+                                <button class="btn btn-success" type="button">SEND</button>
+                              </span>
+                            </div>
+                          </form>
+                        </section>
+                      </article>
+                    </footer>
+                  <!-- /chat --> 
+                          </div>
+                        </div>
+				<div class="tab-pane" id="progress">
+				<div class="col-sm-12">
+				
+                <section class=""><br>
+				 <header class="h4 font-bold">
+                 Resume
+                 </header>
+				 
+                   <div class="text-left wrapper">
+					<div class="panel-body col-sm-4 text-center">
+                      <h4>Global Level</h4>
+                      <small class="text-muted block">Master of knives</small>
+                      <div class="inline">
+                        <div class="easypiechart" data-percent="40" data-line-width="5" data-track-color="#eee" data-bar-color="#1ccc88" data-scale-color="#fff" data-size="120" data-line-cap='butt'>
+                          <div>
+                            <span class="h2 ">40</span>
+                            <div class="text text-sm">Basic</div>
+                          </div>
+                        </div>
+                      </div>                      
+                    </div>
+					<div class="panel-body col-sm-4 text-center">
+                      <h4>Community</h4>
+                      <small class="text-muted block">Best answers</small>
+                      <div class="inline">
+                        <div class="easypiechart" data-percent="80" data-line-width="5" data-track-color="#eee" data-bar-color="#1ccc88" data-scale-color="#fff" data-size="120" data-line-cap='butt'>
+                          <div>
+                            <span class="h2 m-l-sm step">80</span>%
+                            <div class="text text-sm">Accuracy</div>
+                          </div>
+                        </div>
+                      </div>                      
+                    </div>
+					<div class="panel-body col-sm-4 text-center">
+                      <h4>Achievements</h4>
+                      <small class="text-muted block">4/170</small>
+                      <div class="inline">
+                        <div class="easypiechart" data-percent="15" data-line-width="5" data-track-color="#eee" data-bar-color="#1ccc88" data-scale-color="#fff" data-size="120" data-line-cap='butt'>
+                          <div>
+                            <span class="h2 m-l-sm step">15</span>%
+                            <div class="text text-sm">4/170</div>
+                          </div>
+                        </div>
+                      </div>                      
+                    </div>
+                    </div>
+				 
+                    <table class="table table-striped m-b-none">
+                      <thead>
+                        <tr>
+                          <th>Viewing</th>
+                          <th>Progress</th>                    
+                          <th style="width:70px;"></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+					    <tr>   
+						   <td>Learning Paths</td>
+                          <td>
+                            2/18
+                          </td>
+                         
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+						<tr>   
+						   <td>Courses</td>
+                          <td>
+                            15/107
+                          </td>
+                         
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+						<tr>   
+						   <td>Lessons</td>
+                          <td>
+                            26/580
+                          </td>
+                         
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+						<tr>   
+						   <td>Hours</td>
+                          <td>
+                            2/5360
+                          </td>
+                         
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </section>
+				  
+				  <div class="line line-dashed b-b line-lg pull-in"></div>
+				  
+				  <section class="">
+                    <table class="table table-striped m-b-none">
+                      <thead>
+                        <tr>
+                          <th>Tests</th>
+                          <th></th>                    
+                          <th style="width:70px;"></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+						 <tr>   
+						   <td>Taken</td>
+                          <td>
+                            2
+                          </td>
+                         
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+						<tr>   
+						   <td>Passed</td>
+                          <td>
+                            100%
+                          </td>
+                         
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+						<tr>   
+						   <td>Failed</td>
+                          <td>
+                            0
+                          </td>
+                         
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </section>
+				  <div class="line line-dashed b-b line-lg pull-in"></div>
+				  
+				  <section class="">
+                    <table class="table table-striped m-b-none">
+                      <thead>
+                        <tr>
+                          <th>Quizzes</th>
+                          <th></th>                    
+                          <th style="width:70px;"></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+						 <tr>   
+						   <td>Taken</td>
+                          <td>
+                            2
+                          </td>
+                         
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+						<tr>   
+						   <td>Passed</td>
+                          <td>
+                            100%
+                          </td>
+                         
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+						<tr>   
+						   <td>Failed</td>
+                          <td>
+                            0
+                          </td>
+                         
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </section>
+				  
+				  <div class="line line-dashed b-b line-lg pull-in"></div>
+				  
+				  <section class="">
+                    <table class="table table-striped m-b-none">
+                      <thead>
+                        <tr>
+                          <th>Contributions</th>
+                          <th></th>                    
+                          <th style="width:70px;"></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+						 <tr>   
+						   <td>Approved</td>
+                          <td>
+                            2
+                          </td>
+                         
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+						<tr>   
+						   <td>Rejected</td>
+                          <td>
+                            0
+                          </td>
+                         
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+						<tr>   
+						   <td>Pending</td>
+                          <td>
+                            0
+                          </td>
+                         
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </section>
+				  
+				  <div class="line line-dashed b-b line-lg pull-in"></div>
+				  
+				  <section class="">
+                    <table class="table table-striped m-b-none">
+                      <thead>
+                        <tr>
+                          <th>Taste</th>
+                          <th></th>                    
+                          <th style="width:70px;"></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+						 <tr>   
+						   <td>Favourite Category</td>
+                          <td>
+                            Pastry
+                          </td>
+                         
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+						<tr>   
+						   <td>Favourite Region</td>
+                          <td>
+                            Asia
+                          </td>
+                         
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+						<tr>   
+						   <td>Favourite Country</td>
+                          <td>
+                            South Korea
+                          </td>
+                         
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </section>
+				  
+				  
+				  <div class="line line-dashed b-b line-lg pull-in"></div>
+				  
+				  <section class="">
+                    <table class="table table-striped m-b-none">
+                      <thead>
+                        <tr>
+                          <th>Other</th>
+                          <th></th>                    
+                          <th style="width:70px;"></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+						 <tr>   
+						   <td>Level 40</td>
+                          <td>
+                            Basic
+                          </td>
+                         
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+						<tr>                    
+                          
+                          <td>Experience Points</td>
+						  <td>
+                            9500
+                          </td>
+                          <td class="text-right">
+                            <span class="label bg-danger pull-right m-t-xs">500 left for the next level</span>
+                          </td>
+                        </tr>
+						<tr>                    
+                          
+                          <td>Achievements</td>
+						  <td>
+                            <div class="progress progress-xs m-t-xs m-b-none">
+                              <div class="progress-bar bg-danger" data-toggle="tooltip" data-original-title="15/186" style="width: 15%"></div>
+                            </div>
+                          </td>
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+						<tr>   
+						   <td>Best Answer</td>
+                          <td>
+                            67
+                          </td>
+                         
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+						<tr>   
+						   <td>Accuracy</td>
+                          <td>
+                            77%
+                          </td>
+                         
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+						<tr>   
+						   <td>Store purchases</td>
+                          <td>
+                            4
+                          </td>
+                         
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+						<tr>   
+						   <td>Global Ranking</td>
+                          <td>
+                            10577
+                          </td>
+                         
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+						<tr>   
+						   <td>Ranking Chile</td>
+                          <td>
+                            53
+                          </td>
+                         
+                          <td class="text-right">
+                            <div class="btn-group">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a>
+                              <ul class="dropdown-menu pull-right">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                        </tr>
+						<tr>   
+						   <td>Local Ranking</td>
+                          <td>
+                            4°
+                          </td>
+                         
+                          <td class="text-right">
+                            <span class="label bg-danger pull-right m-t-xs">just 1 level left for reach the 3° place!</span>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </section>
+				  
+                </div>
+                </div>
+                        <div class="tab-pane" id="interaction">
+                          <div class="text-center wrapper">
+						  
+				<div class="columnas">
+                 <div class="item">
+                    <div class="pos-rlt">
+                      <a href="video-detail.html"><img src="images/logro2.png" alt="" class="r r-2x img-full"></a>
+					  <div class="item-overlay opacity r r-2x bg-black">
+                            <div class="center text-center m-t-n">
+                          <a href="modal-achievement.html" data-toggle="ajaxModal"><i class="fa playminin"></i></a>
+                        </div>
+                          </div>
+                    </div>
+                      <a href="modal-buy-item.html" data-toggle="ajaxModal" class="text-ellipsis text-xs text-muted">AutoBiographer</a>
+                  </div>
+                </div>
+                <div class="columnas">
+                 <div class="item">
+                    <div class="pos-rlt">
+                      <a href="video-detail.html"><img src="images/logro3.png" alt="" class="r r-2x img-full"></a>
+					  <div class="item-overlay opacity r r-2x bg-black">
+                        <div class="center text-center m-t-n">
+                          <a href="#"><i class="fa playminin"></i></a>
+                        </div>
+                          </div>
+                    </div>
+					
+                      <a href="video-detail.html" class="text-ellipsis text-xs text-muted" >Filantropía</a>
+                  </div>
+                </div>
+                <div class="columnas">
+                 <div class="item">
+                    <div class="pos-rlt">
+                      <a href="video-detail.html"><img src="images/logro4.png" alt="" class="r r-2x img-full"></a>
+					  <div class="item-overlay opacity r r-2x bg-black">
+                            <div class="center text-center m-t-n">
+                          <a href="video-detail.html"><i class="fa playminin"></i></a>
+                        </div>
+                          </div>
+                    </div>
+					
+                      <a href="video-detail.html" class="text-ellipsis text-xs text-muted">Muy agradecido</a>
+                  </div>
+                </div>
+				<div class="columnas">
+                 <div class="item">
+                    <div class="pos-rlt">
+                      <a href="video-detail.html"><img src="images/logro.png" alt="" class="r r-2x img-full"></a>
+					  <div class="item-overlay opacity r r-2x bg-black">
+                            <div class="center text-center m-t-n">
+                          <a href="video-detail.html"><i class="fa playminin"></i></a>
+                        </div>
+                          </div>
+                    </div>
+					
+                      <a href="video-detail.html" class="text-ellipsis text-xs text-muted">Polifacético</a>
+                  </div>
+                </div>
+				<div class="columnas">
+                 <div class="item">
+                    <div class="pos-rlt">
+                      <a href="video-detail.html"><img src="images/logro5.png" alt="" class="r r-2x img-full"></a>
+					  <div class="item-overlay opacity r r-2x bg-black">
+                            <div class="center text-center m-t-n">
+                          <a href="video-detail.html"><i class="fa playminin"></i></a>
+                        </div>
+                          </div>
+                    </div>
+					
+                      <a href="video-detail.html" class="text-ellipsis text-xs text-muted">Estrenando equipos</a>
+                  </div>
+                </div>
+				<div class="columnas">
+                 <div class="item">
+                    <div class="pos-rlt">
+                      <a href="video-detail.html"><img src="images/logro5.png" alt="" class="r r-2x img-full"></a>
+					  <div class="item-overlay opacity r r-2x bg-black">
+                            <div class="center text-center m-t-n">
+                          <a href="video-detail.html"><i class="fa playminin"></i></a>
+                        </div>
+                          </div>
+                    </div>
+					
+                      <a href="video-detail.html" class="text-ellipsis text-xs text-muted">Supremacía</a>
+                  </div>
+                </div>
+				<div class="columnas">
+                 <div class="item">
+                    <div class="pos-rlt">
+                      <a href="video-detail.html"><img src="images/logro5.png" alt="" class="r r-2x img-full"></a>
+					  <div class="item-overlay opacity r r-2x bg-black">
+                            <div class="center text-center m-t-n">
+                          <a href="video-detail.html"><i class="fa playminin"></i></a>
+                        </div>
+                          </div>
+                    </div>
+					
+                      <a href="video-detail.html" class="text-ellipsis text-xs text-muted">Indetenible</a>
+                  </div>
+                </div>
+				<div class="columnas">
+                 <div class="item">
+                    <div class="pos-rlt">
+                      <a href="video-detail.html"><img src="images/logro5.png" alt="" class="r r-2x img-full"></a>
+					  <div class="item-overlay opacity r r-2x bg-black">
+                            <div class="center text-center m-t-n">
+                          <a href="video-detail.html"><i class="fa playminin"></i></a>
+                        </div>
+                          </div>
+                    </div>
+					
+                      <a href="video-detail.html" class="text-ellipsis text-xs text-muted">El primero de la fila</a>
+                  </div>
+                </div>
+				<div class="columnas">
+                 <div class="item">
+                    <div class="pos-rlt">
+                      <a href="video-detail.html"><img src="images/logro5.png" alt="" class="r r-2x img-full"></a>
+					  <div class="item-overlay opacity r r-2x bg-black">
+                            <div class="center text-center m-t-n">
+                          <a href="video-detail.html"><i class="fa playminin"></i></a>
+                        </div>
+                          </div>
+                    </div>
+					
+                      <a href="video-detail.html" class="text-ellipsis text-xs text-muted">Sed de conocimiento</a>
+                  </div>
+                </div>
+				<div class="columnas">
+                 <div class="item">
+                    <div class="pos-rlt">
+                      <a href="video-detail.html"><img src="images/logro5.png" alt="" class="r r-2x img-full"></a>
+					  <div class="item-overlay opacity r r-2x bg-black">
+                            <div class="center text-center m-t-n">
+                          <a href="video-detail.html"><i class="fa playminin"></i></a>
+                        </div>
+                          </div>
+                    </div>
+					
+                      <a href="video-detail.html" class="text-ellipsis text-xs text-muted">Alumno brillante</a>
+                  </div>
+                </div>
+				<div class="columnas">
+                 <div class="item">
+                    <div class="pos-rlt">
+                      <a href="video-detail.html"><img src="images/logro5.png" alt="" class="r r-2x img-full"></a>
+					  <div class="item-overlay opacity r r-2x bg-black">
+                            <div class="center text-center m-t-n">
+                          <a href="video-detail.html"><i class="fa playminin"></i></a>
+                        </div>
+                          </div>
+                    </div>
+					
+                      <a href="video-detail.html" class="text-ellipsis text-xs text-muted">Colaborador destacado</a>
+                  </div>
+                </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+					
+					
+                  </section>
+                </aside>
+                 <!-- side content -->
+            <aside class="aside-md" id="sidebar">
+              <section class="vbox animated fadeInRight">
+                <section class="w-f-md scrollable hover">
+				
+				
+				
+                </section>
+              </section>              
+            </aside>
+            <!-- / side content -->
+              </section>
+            </section>
+          </section>
+          <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen,open" data-target="#nav,html"></a>
+        </section>
+      </section>
+    </section>    
+  </section>
+  <script src="js/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.js"></script>
+  <!-- App -->
+  <script src="js/app.js"></script>  
+  <script src="js/slimscroll/jquery.slimscroll.min.js"></script>
+  <script src="js/charts/easypiechart/jquery.easy-pie-chart.js"></script>
+  <script src="js/app.plugin.js"></script>
+  <script type="text/javascript" src="js/jPlayer/jquery.jplayer.min.js"></script>
+  <script type="text/javascript" src="js/jPlayer/add-on/jplayer.playlist.min.js"></script>
+  <script type="text/javascript" src="js/jPlayer/demo.js"></script>
+</body>
+</html>

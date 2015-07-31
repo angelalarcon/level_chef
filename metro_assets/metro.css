@@ -1,0 +1,237 @@
+.w10{
+	width: 10%;
+}
+.w15{
+  width: 15%;
+}
+.w20{
+	width: 20%;
+}
+.w30{
+	width: 30%;
+}
+.w40{
+	width: 40%;
+}
+.w50{
+	width: 50%;
+}
+.w60{
+	width: 60%;
+}
+.w70{
+	width: 70%;
+}
+.w80{
+	width: 80%;
+}
+.w90{
+	width: 90%;
+}
+.w100{
+	width: 100%;
+}
+
+.skmetro_ui{
+	position: relative;
+  margin: 0px 0px;
+  margin-bottom: 40px;
+}
+.metro_item_inside{
+	position: relative;
+	overflow: hidden !important;	
+	display: none;
+}
+.metroThumb{
+	width: 100%;
+}
+
+/* metro cover */
+.metro-cover{
+    width: 100%; height: 100%;
+    position: absolute; left: 0; top: 0;
+    background-color: #000000;
+    z-index: 5;
+    overflow: hidden;
+    cursor: pointer;
+}
+.metro-dark{
+    width: 100%; height: 100%;
+    position: absolute; left: 0; top: 0;    
+    background: rgba(0,0,0, .05);
+    z-index: 5;      
+}
+.metro-thumb{
+  position: absolute;
+  left: 0; bottom: 0;
+}
+.metro-text{
+    font-size: 16px;
+    position: absolute;
+    left: 0; bottom: 0;
+    padding: 5px 8px !important;
+    margin: 0px 0px !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+.metro-caption{
+  background-color: #000000;  
+  width: 100%;
+  padding: 4px 5px;
+  height: auto !important;
+  background: rgba(0,0,0, .5);
+  color: #F2F2F2 !important;
+  position: absolute;
+  z-index: 9;
+  left: 0; top: 0;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.loadMoreContainer{
+	text-align: center;
+	margin: 30px 0px;		
+}
+.loadMoreContainer img{
+	display: none;
+}
+a.skLoadMoreLink{
+	width: 50%;
+	display: none;		
+	padding: 7px 15px;
+	text-decoration: none !important;
+	color: #fff !important;
+	text-transform: uppercase;
+	border-radius: 2px;
+	border-color: #1ab667;
+	cursor: pointer;
+	border: solid;
+	border-color: rgba(0,0,0,.1) ;
+	border-width: 1px;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.05);
+	background-color: #1ab667;
+	text-align: center;
+	display: none;	
+}
+a.skLoadMoreLink:hover{
+	box-shadow: none;
+}
+
+/* beacon */
+.gr_isotope_beacon{
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  left: 0; top: 0;
+  
+  z-index: 1;  
+}
+.gr_genericBeaconIsotope{
+  position: absolute;
+  cursor: pointer;
+  margin: auto;
+  width: 96px;
+  height: 96px; 
+  left: 22px;
+  top: 22px;
+}
+.beaconCircle1{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 96px;
+  height: 96px;
+  border-radius: 48px;
+}
+.beaconCircle2{
+  position: absolute;
+  left: 12px;
+  top: 12px;  
+  width: 72px;
+  height: 72px;
+  border-radius: 36px;  
+}
+.isotopeItemOpenLink, img.isotopeItemOpenLink, .isotopeThumb img.isotopeThumb{
+  margin: 0;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border-radius: 0px 0px 0px 0px;
+}
+/* end beacon */
+
+/* GRAVITY LIGHTBOX */
+.gravityLightboxUI{    
+    background-color: #000000;
+    background: rgba(0,0,0,.93);    
+}
+.gravityLightboxSettings{
+    position: fixed;  
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 99999;
+}
+.gravityLightboxImage{
+    position: relative;
+    max-width: 80%;
+    max-height: 100%;
+}
+.gridVideo{
+    position: relative;
+    width: 80%;
+    height: 80%;  
+    max-width: 80%;
+    max-height: 80%;  
+}
+
+.gridVideo iframe{
+  width: 100% !important;  
+  height: 100% !important;  
+}
+.gridSound{
+    position: relative;
+    width: 80%;
+    height: 166px;  
+    max-width: 80%;  
+}
+.gridSound iframe{
+  width: 100% !important;  
+  height: 100% !important;  
+}
+
+.gravityArrow{
+  position: absolute;
+  width: 39px;
+  height: 65px;  
+  cursor: pointer;
+  background-repeat: no-repeat;  
+}
+.gravityArrowLeft{
+    background: url('img/arrow_left.png');
+    z-index: 1101;
+}
+.gravityArrowRight{
+    background: url('img/arrow_right.png');
+    z-index: 1102;
+}
+.gravityLightCloseUI{
+  position: absolute;
+  width: 42px;
+  height: 38px;
+  background-color: #000000;
+  background: rgba(0,0,0, .5);
+  cursor: pointer;
+  z-index: 999;  
+}
+.gravityLightClose{  
+  width: 42px;
+  height: 38px;
+  background: url('img/close_lightbox.png');
+}
+.lbgLoader{
+  position: absolute;
+  z-index: 400;
+  width: 30px;
+  height: 30px;
+}
+/* END GRAVITY LIGHTBOX */
