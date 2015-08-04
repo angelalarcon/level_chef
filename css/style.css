@@ -334,8 +334,9 @@ footer a:hover {
 }
 
 .margin_map {
-  padding-left: 50px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  z-index: 10;
 }
 
 .email {
@@ -450,6 +451,10 @@ footer a:hover {
   padding: 20px 0;
 }
 
+.copy a:hover span {
+  color: #fff;
+}
+
 .copy span {
   color: #8C8A8A;
   font-size: 18px;
@@ -488,6 +493,8 @@ a:focus {
 
 section.red {
   position: relative;
+  background-image: url(../images/home_background.png);
+  background-size: cover;
 }
 
 section.red .background {
@@ -599,11 +606,22 @@ body#about header a.active:hover{
 section.black {
   position: relative;
   background-size: cover;
-  background-image: url(;...images/black_section_background.png) no-repeat;
+  background-image: url(../images/black_section_background.png);
+  background-color: #000;
+  color: #fff;
+  padding: 30px 0;
+}
+
+section.black h1 {
+  margin-top: 0;
+}
+
+section.black h4 {
+  margin-bottom: 0;
 }
 
 section.black .background {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.2);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -774,6 +792,7 @@ section.white h3 {
 }
 
 section.gray {
+  position: relative;
   background-color: #2A2A2A;
   padding-top: 40px;
   color: #fff;
@@ -996,6 +1015,9 @@ ul.plan_feats li span {
   .user-menu {
     right: 10px;
   }
+  section.gray h4 {
+    font-size: 1.5vw;
+  }
 }
 
 @media screen and (max-width: 850px)  {
@@ -1005,9 +1027,24 @@ ul.plan_feats li span {
   .user-menu span {
     display: none;
   }
+  header.transparent {
+    background-color: #C92E2E;
+  }
+  body#about {
+    padding-top: 100px;
+  }
+  section.red .video_info {
+    padding: 0 0 50px 0;
+  }
+  .play {
+    left: 75%;
+  }
 }
 
 @media screen and (max-width: 768px)  {
+  section.gray h4 {
+    font-size: 14px;
+  }
   .user-menu {
     right: inherit;
     left: 0;
@@ -1046,17 +1083,6 @@ ul.plan_feats li span {
   header .menu li {
     padding: 20px 0;
   }
-  .play {
-    width: 50px;
-    height: 50px;
-    padding: 0px;
-    top: 50%;
-    left: 50%;
-    margin-top: -20px;
-    margin-left: -40px;
-    background: url(../images/psma.png) no-repeat;
-  }
-
   .play:hover {
     background-position: 0 100%;
   }
@@ -1065,10 +1091,67 @@ ul.plan_feats li span {
     font-size: 3vw;
   } 
   h4 {
-  font-size: 15px;
+    font-size: 2vw;
   }
   section.red .video_info .btn-white {
-  margin-right: 34px;
+    margin-right: 34px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  section.red .video_info {
+    padding: 0 100px 5px 0;
+    width: 80%;
+  }
+  .copy {
+    text-align: center;
+  }
+  .copy span {
+    display: block;
+    text-align: center;
+  }
+  .copy .bar_divider {
+    transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    width: 10px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  section.red .video_info .btn-white {
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+  .play {
+    left: 85%;
+  }
+  section.red .video_info {
+    width: 90%;
+  }
+  section.red .video_info h4 {
+    line-height: 1;
+    font-size: 3vw;
+  }
+  h1 {
+    font-size: 4vw;
+  }
+
+  h4 {
+    font-size: 3vw;
+  }
+  .margin_map {
+    width: 100%;
+    text-align: center;
+  }
+  .margin_map h4 {
+    font-size: 4vw;
+  }
+  .margin_map a {
+    display: block;
+    margin: 5px 0;
   }
 }
 
@@ -1078,17 +1161,6 @@ ul.plan_feats li span {
     border-color: #ccc;
     margin: 1px 5px;
   }
-  .play {
-    width: 30px;
-    height: 30px;
-    padding: 0px;
-    top: 50%;
-    left: 50%;
-    margin-top: -9px;
-    margin-left: -20px;
-    background: url(../images/boton.png) no-repeat;
-  }
-
   .play:hover {
     background-position: 0 100%;
   }
@@ -1103,35 +1175,17 @@ ul.plan_feats li span {
   .info_method {
     font-size: 12px;
   }
-  h4 {
-    font-size: 3vh;
-  }
-  h3 {
-  font-size: 3vh;
-  }
   section.red .video_info a {
     font-size: 10px;
   }
-  section.red .video_info {
-    width: 120%;
-    padding: 0;
-  }
-  section.red .video_info .btn-white {
-    margin-right: 5px;
-  }
-
-  body#about section.red h4 {
-    display: none;
-  }
-
   body#about section.red h1 {
-  font-size: 4vw;
+    font-size: 4vw;
   }
   section.red .btn-white{
     padding: 5px 7px;
   }
   #carousel_banner .item .play {
-  left: 60px;
-  margin-left: 0;
+    left: 60px;
+    margin-left: 0;
   }
 }
