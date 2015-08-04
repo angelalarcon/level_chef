@@ -30,11 +30,11 @@ $('#menu_home').click(function(){
 $(window).on('scroll', function () {
     var scrollTop = $(window).scrollTop();
     if (scrollTop > ($('section.red').height())/2) {
-      $('header').addClass('colored')
-      $('header').removeClass('transparent')   
+      $('#about header').addClass('colored')
+      $('#about header').removeClass('transparent')   
     }
     else {
-      $('header').removeClass('colored')
-      $('header').addClass('transparent')   
+      $('#about header').removeClass('colored')
+      $('#about header').addClass('transparent')   
     }
 });
