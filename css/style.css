@@ -124,6 +124,32 @@ header .logo {
   top: 0;
 }
 
+header #settings {
+  font-size: 24px;
+  margin: 33px 20px;
+  position: absolute;
+  left: 0;
+  display: none;
+  top: 0;
+}
+
+#user_menu .navbar-nav {
+  display: none;
+}
+
+#user_menu a:hover {
+  background-color: rgba(169, 27, 32, 0.69);
+}
+
+#user_menu li>a img {
+  margin-left: 10px;
+  border: 2px solid #8ECA61;
+  height: 64px;
+  width: 64px;
+  -webkit-border-radius: 64px 64px 64px 64px;
+  border-radius: 64px 64px 64px 64px;
+}
+
 .user-menu {
   right: 30px;
   position: absolute;
@@ -201,16 +227,32 @@ header .navbar {
   width: 100%;
   font-size: 15px;
   color: #787A7C;
-  padding-right: 20px;
+  position: relative;
+  overflow: hidden;
 }
 
 .image_method {
-  float: left;
-  margin-right: 15px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.image_method img {
+  width: 165px;
 }
 
 .info_method {
-  padding-top: 10px;
+  padding: 10px 10px 10px 175px;
+  height: 131px;
+}
+
+.info_method .view_more {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: block;
+  color: #C92E2E;
+  display: none;
 }
 
 .margin_top {
@@ -1096,6 +1138,10 @@ ul.plan_feats li span {
   section.red .video_info .btn-white {
     margin-right: 34px;
   }
+  .texto_categoria h4,
+  .gris_claro h4 {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -1169,6 +1215,32 @@ ul.plan_feats li span {
   .carousel-indicators {
     bottom: -5px;
   }
+  .info_method span {
+    overflow: hidden;
+    line-clamp: 4;
+    -moz-line-clamp: 4;
+    -webkit-line-clamp: 4;
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical; 
+  }
+  .info_method .view_more {
+    display: block;
+  }
+  .user-menu {
+    display: none;
+  }
+  header #settings {
+    display: block;
+  }
+  #user_menu .navbar-nav {
+    display: block;
+  }
+  #user_menu li>a img {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media screen and (max-width: 370px) {
@@ -1206,7 +1278,7 @@ ul.plan_feats li span {
     width: 40px;
     height: 40px;
     text-align: center;
-     padding: 0; 
+    padding: 0; 
     margin-top: -20px;
     background-size: 100%;
   }

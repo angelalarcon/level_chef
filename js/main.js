@@ -19,6 +19,14 @@ $('.play').click(function() {
   }
 });
 
+$('#settings').click(function(){
+  $('#bs-example-navbar-collapse-1').removeClass('in');
+});
+
+$('#menu_home').click(function(){
+  $('#user_menu').removeClass('in');
+});
+
 $(window).on('scroll', function () {
     var scrollTop = $(window).scrollTop();
     if (scrollTop > ($('section.red').height())/2) {
