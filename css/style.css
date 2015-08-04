@@ -715,8 +715,8 @@ section.white .info_box .info .read_more {
 }
 
 #carousel_banner .item .play {
-  left: 130px;
-  margin-left: 0;
+  left: 20%;
+  margin-top: -37px;
 }
 
 #carousel_banner .item .container-fluid {
@@ -1153,6 +1153,22 @@ ul.plan_feats li span {
     display: block;
     margin: 5px 0;
   }
+  #carousel_banner .item h1 {
+    margin: 0;
+  }
+  #carousel_banner .item h4 {
+    overflow: hidden;
+    line-clamp: 2;
+    -moz-line-clamp: 2;
+    -webkit-line-clamp: 2;
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical; 
+  }
+  .carousel-indicators {
+    bottom: -5px;
+  }
 }
 
 @media screen and (max-width: 370px) {
@@ -1185,7 +1201,13 @@ ul.plan_feats li span {
     padding: 5px 7px;
   }
   #carousel_banner .item .play {
-    left: 60px;
+    left: 10%;
     margin-left: 0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+     padding: 0; 
+    margin-top: -20px;
+    background-size: 100%;
   }
 }
