@@ -1047,6 +1047,10 @@ ul.plan_feats li span {
   width: 100%;
 }
 
+#video_home iframe {
+    margin-top: 100px;
+  }
+
 @media screen and (max-width: 1080px)  {
   header .menu a {
     padding: 8px 5px;
@@ -1168,6 +1172,10 @@ ul.plan_feats li span {
     -webkit-transform: rotate(90deg);
     width: 10px;
     margin: 0 auto;
+  }
+  #video_home iframe {
+    height: 300px;
+    margin-top: 100px;
   }
 }
 
