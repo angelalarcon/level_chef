@@ -719,7 +719,6 @@ section.white .info_box .info {
 }
 
 section.white .info_box .info p {
-  max-height: 63px
   overflow: hidden;
   display: box;
   display: -moz-box;

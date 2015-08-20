@@ -6,10 +6,9 @@ $('#carousel_courses').carousel({
   interval: 30000
 })
 
-$('.play').click(function() {
-  if ($('body').hasClass('modal-close')) {
-    $('body').removeClass('modal-close');
-  }
+$('.modal').click(function() {
+   vimeoWrap = $('#video_home');
+   vimeoWrap.html( vimeoWrap.html() );
 });
 
 $('#settings').click(function(){
