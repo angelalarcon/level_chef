@@ -649,9 +649,7 @@ section.black {
   position: relative;
   background-size: cover;
   background-image: url(../images/black_section_background.png);
-  background-color: #000;
-  color: #fff;
-  padding: 30px 0;
+
 }
 
 section.black h1 {
@@ -721,14 +719,18 @@ section.white .info_box .info {
 }
 
 section.white .info_box .info p {
+  max-height: 63px
   overflow: hidden;
-  line-clamp: 3;
-  -moz-line-clamp: 3;
-  -webkit-line-clamp: 3;
   display: box;
   display: -moz-box;
   display: -webkit-box;
+  line-clamp: 3;
   -webkit-box-orient: vertical;  
+  -moz-line-clamp: 3;
+  -webkit-line-clamp: 3;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  -ms-text-overflow:ellipsis;
 }
 
 section.white .info_box .info .read_more {
@@ -1048,8 +1050,8 @@ ul.plan_feats li span {
 }
 
 #video_home iframe {
-    margin-top: 100px;
-  }
+  margin-top: 100px;
+}
 
 @media screen and (max-width: 1080px)  {
   header .menu a {
