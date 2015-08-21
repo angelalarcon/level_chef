@@ -653,11 +653,11 @@ section.black {
 }
 
 section.black h1 {
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 section.black h4 {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 section.black .background {
