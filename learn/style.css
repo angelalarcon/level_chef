@@ -1,4 +1,4 @@
-@font-face {
+s@font-face {
 	font-family: 'Open Sans';
 	src: url(../fonts/open_sans_regular.ttf);
 }
@@ -1311,16 +1311,12 @@ section.white .info_box .info {
   .carousel-indicators {
     bottom: -5px;
   }
-  .info_method span {
+
+  .innersize{
     overflow: hidden;
-    line-clamp: 4;
-    -moz-line-clamp: 4;
-    -webkit-line-clamp: 4;
-    display: box;
-    display: -moz-box;
-    display: -webkit-box;
-    -webkit-box-orient: vertical; 
+    height: 82px;
   }
+
   .info_method .view_more {
     display: block;
   }
