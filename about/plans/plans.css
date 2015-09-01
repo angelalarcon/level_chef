@@ -1,0 +1,142 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: url(../fonts/open_sans_regular.ttf);
+}
+
+@font-face {
+	font-family: 'Open Sans Condensed';
+	src: url(../fonts/open_sans_cond_bold.ttf);
+}
+
+body {
+  font-family: 'Open Sans';
+  margin-top: 100px;
+}
+
+html,body {
+  padding: 0;
+  margin: 0;
+}
+
+body#about {
+  margin: 0;
+}
+
+section {
+  overflow: hidden;
+}
+
+a:focus {
+  outline: 0;
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+section.plans {
+  background-color: #D33F3F;
+  padding: 40px 0;
+  color: #fff;
+}
+
+section.plans .title {
+  font-family: 'Open Sans Condensed';
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.conten_plans {
+  color: #9F9F9F;
+  background-color: #FFF;
+  width: 100%;
+  padding: 20px 30px 140px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  position: relative;
+  min-height: 400px;
+  margin-bottom: 25px;
+}
+
+.conten_plans h1 {
+  color: #3D3D3D;
+  font-size: 26px;
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: 'Open Sans Condensed';
+}
+
+.conten_plans .action {
+  position: absolute;
+  width: 100%;
+  height: 90px;
+  bottom: 30px;
+  left: 0;
+  padding: 20px 30px;
+}
+
+.conten_plans h1.periodicity {
+  color: #62CE92;
+}
+
+.conten_plans h1.periodicity small {
+  color: #62CE92;
+}
+
+ul.plan_feats {
+  padding-start: 20px;
+  -moz-padding-start: 20px;
+  -webkit-padding-start: 20px;
+}
+
+ul.plan_feats li {
+  list-style-image: url('../images/check_icon.png');
+  margin-bottom: 10px;
+}
+
+ul.plan_feats li span {
+  vertical-align: top;
+  line-height: 18px;
+}
+
+.btn-plans {
+  background-color: #62CE92;
+  color: #fff;
+  display: block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Open Sans Condensed';
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.btn-plans:hover,
+.btn-plans:focus {
+  background-color: #4AA171;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 560px) {
+  h1 {
+    font-size: 4vw;
+  }
+}

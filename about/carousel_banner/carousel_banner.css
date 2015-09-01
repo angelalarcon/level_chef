@@ -1,0 +1,182 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: url(../fonts/open_sans_regular.ttf);
+}
+
+@font-face {
+	font-family: 'Open Sans Bold';
+	src: url(../fonts/open_sans_bold.ttf);
+}
+
+@font-face {
+  font-family: 'Open Sans Light';
+  src: url(../fonts/open_sans_light.ttf);
+}
+
+@font-face {
+	font-family: 'Open Sans Condensed';
+	src: url(../fonts/open_sans_cond_bold.ttf);
+}
+
+body {
+  font-family: 'Open Sans';
+  margin-top: 100px;
+}
+
+html,body {
+  padding: 0;
+  margin: 0;
+}
+
+body#about {
+  margin: 0;
+}
+
+section {
+  overflow: hidden;
+}
+
+a:focus {
+  outline: 0;
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+.valign-wrapper {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.valign {
+	display: block;
+}
+
+.play {
+  position: absolute;
+  z-index: 5;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  padding: 30px;
+  top: 50%;
+  left: 50%;
+  margin-top: -20px;
+  margin-left: -40px;
+  background: url(../images/play.png) no-repeat;
+  background-position: 0 0;
+  display: block;
+}
+
+.play:hover {
+  background-position: 0 100%;
+}
+
+.play img {
+  width: 55px;
+  margin: 5px 0px 0px 20px;
+}
+
+#carousel_banner .item > img {
+  width: 100%;
+}
+
+#carousel_banner .item .background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0,0.6);
+}
+
+#carousel_banner .item .play {
+  left: 20%;
+  margin-top: -37px;
+}
+
+#carousel_banner .item .container-fluid {
+  width: 100%;
+}
+
+#carousel_banner .item .content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  color: #fff;
+}
+
+#carousel_banner .item .content h1 {
+  font-family: 'Open Sans Condensed';
+}
+
+#carousel_banner .carousel-indicators {
+  right: 0;
+  left: inherit;
+  width: auto;
+  padding: 0 50px;
+}
+
+#carousel_banner .carousel-indicators li {
+  background-color: #fff;
+  margin: 1px 10px;
+}
+
+#carousel_banner .carousel-indicators .active {
+  background-color: #F23713;
+  border-color: #F23713;
+  margin: 1px 10px;
+}
+
+@media screen and (max-width: 767px)  {
+  .play:hover {
+    background-position: 0 100%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .play {
+    left: 85%;
+  }
+  #carousel_banner .item h1 {
+    margin: 0;
+  }
+  #carousel_banner .item h4 {
+    overflow: hidden;
+    line-clamp: 2;
+    -moz-line-clamp: 2;
+    -webkit-line-clamp: 2;
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical; 
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .play:hover {
+    background-position: 0 100%;
+  }
+
+  #carousel_banner .item .play {
+    left: 10%;
+    margin-left: 0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 0; 
+    margin-top: -20px;
+    background-size: 100%;
+  }
+}

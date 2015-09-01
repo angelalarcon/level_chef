@@ -1,0 +1,124 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: url(../fonts/open_sans_regular.ttf);
+}
+
+@font-face {
+	font-family: 'Open Sans Bold';
+	src: url(../fonts/open_sans_bold.ttf);
+}
+
+@font-face {
+  font-family: 'Open Sans Light';
+  src: url(../fonts/open_sans_light.ttf);
+}
+
+@font-face {
+	font-family: 'Open Sans Condensed';
+	src: url(../fonts/open_sans_cond_bold.ttf);
+}
+
+body {
+  font-family: 'Open Sans';
+  margin-top: 100px;
+}
+
+html,body {
+  padding: 0;
+  margin: 0;
+}
+
+body#about {
+  margin: 0;
+}
+
+section {
+  overflow: hidden;
+}
+
+a:focus {
+  outline: 0;
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+section.gray {
+  position: relative;
+  background-color: #2A2A2A;
+  padding-top: 40px;
+  color: #fff;
+}
+
+section.gray h1 {
+  font-family: 'Open Sans Bold';
+}
+
+section.gray h4 {
+  line-height: 1.5;
+}
+
+.btn-green {
+  background-color: #00B748;
+  color: #fff;
+  display: block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-radius: 1px;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.btn-green:hover,
+.btn-green:focus {
+  background-color: #0B883C;
+  color: #fff;
+  text-decoration: none;
+}
+
+.max-width {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1080px)  {
+  section.gray h4 {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (max-width: 767px)  {
+  section.gray h4 {
+    font-size: 14px;
+  }
+
+  h4 {
+    font-size: 2vw;
+  }
+
+}
+
+@media screen and (max-width: 560px) {
+
+  h1 {
+    font-size: 4vw;
+  }
+
+  h4 {
+    font-size: 3vw;
+  }
+}
+
