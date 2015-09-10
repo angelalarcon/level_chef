@@ -1,0 +1,140 @@
+html {
+  overflow-x: hidden;
+}
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #2a2a2e;
+  background-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.40;
+}
+.wrapper-sm {
+  padding: 10px;
+}
+.bg-prices {
+  background-color: #c52527;
+  background-image: url('../images/lang.png');
+  background-attachment: fixed;
+  color: #eaf6f9;
+}
+.scrollable {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.row-sm {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.padder-lg {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.logang2 {
+  color: #fff;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: 800;
+  font-size: 38px;
+}
+.row-sm > div {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.precio {
+  border-radius: 4px;
+  background-color: #fff;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px; 
+}
+.lack {
+  font-size: 18px;
+  text-align: left;
+  color: #696969;
+}
+.font-bold {
+  font-weight: 700;
+}
+.b-b {
+  border-bottom: 1px solid #eaeef1;
+}
+.pull-in {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.line-dashed {
+  border-style: dashed !important;
+  background-color: transparent;
+  border-width: 0;
+}
+.line-lg {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.line {
+  height: 2px;
+  margin: 10px 0;
+  font-size: 0;
+  overflow: hidden;
+}
+.logang2a {
+  color: #4f4f4d;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 58px;
+  font-weight: 800;
+}
+.colorgris {
+  color: #8d8d8d;
+}
+.logan2 {
+  color: #c52527;
+}
+.text-xs {
+  font-size: 12px;
+}
+.btn {
+  font-weight: 500;
+  border-radius: 2px;
+}
+.btn-danger {
+  color: #fff !important;
+  background-color: #d3282a;
+  border-color: #d3282a;
+}
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger {
+  color: #fff !important;
+  background-color: #c52527;
+  border-color: #ed2a2a;
+}
+.line-dashed {
+  border-style: dashed !important;
+  background-color: transparent;
+  border-width: 0;
+}
+.line-lg {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.line {
+  height: 2px;
+  margin: 10px 0;
+  font-size: 0;
+  overflow: hidden;
+}
+.colorverde {
+  color: #1ab667;
+}
+.font-bold {
+  font-weight: 700;
+}
+.pull-in {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.b-b {
+  border-bottom: 1px solid #eaeef1;
+}

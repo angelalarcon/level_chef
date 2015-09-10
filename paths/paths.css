@@ -1,0 +1,153 @@
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #2a2a2e;
+  background-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.40;
+}
+.text-xs {
+  font-size: 12px;
+}
+.text-white {
+  color: #fff;
+}
+.pos-rlt {
+  position: relative;
+}
+.item .bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.padder {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.item .opacity {
+  background-color: rgba(0,0,0,0.75);
+}
+.item-overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.r-2x {
+  border-radius: 4px;
+}
+.r {
+  border-radius: 2px 2px 2px 2px;
+}
+.bg-black {
+  background-color: #0d0d0d;
+  color: #7d94a4;
+}
+.bg-black a:hover {
+  color: #fff;
+}
+.bg-black a {
+  color: #696969;
+}
+.m-t-sm {
+  margin-top: 10px;
+}
+.padder {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.text-sm {
+  font-size: 13px;
+}
+.text-info {
+  color: #4cb6cb;
+}
+.text-xs {
+  font-size: 12px;
+}
+.text-muted {
+  color: #939aa0;
+}
+.text-ellipsis {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.item .center {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+.item:hover .item-overlay {
+  display: block;
+}
+.playmini:hover {
+  background-position: bottom;
+  height: 30px;
+  width: 30px;
+}
+.playmini {
+  background: url(../images/psmas.png) no-repeat top;
+  height: 30px;
+  width: 30px;
+}
+.m-t-n {
+  margin-top: -15px;
+}
+.m-r-xs {
+  margin-right: 5px;
+}
+a {
+  color: #545a5f;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: #303437;
+  text-decoration: none;
+}
+.bg-black a {
+  color: #696969;
+}
+.img-full {
+  width: 100%;
+}
+.r-2x {
+  border-radius: 4px;
+}
+.padder-v {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.r {
+  border-radius: 2px 2px 2px 2px;
+}
+.row-sm > div {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.text-active {
+  display: none !important;
+}
+.text-danger {
+  color: #d3282a;
+}
+.row-sm {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.padder-lg {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+@media (max-width: 767px){
+  .padder-lg {
+    padding-left: 15px;
+    padding-right: 15px;
+  } 
+}

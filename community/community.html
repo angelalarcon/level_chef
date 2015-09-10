@@ -5,13 +5,13 @@
   <title>Level Chef | Courses</title>
   <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <link rel="stylesheet" href="js/jPlayer/jplayer.flat.css" type="text/css" />
-  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-  <link rel="stylesheet" href="css/animate.css" type="text/css" />
-  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
-  <link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" />
-  <link rel="stylesheet" href="css/font.css" type="text/css" />
-  <link rel="stylesheet" href="css/app.css" type="text/css" />  
+  <link rel="stylesheet" href="../js/jPlayer/jplayer.flat.css" type="text/css" />
+  <link rel="stylesheet" href="../css/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="../css/animate.css" type="text/css" />
+  <link rel="stylesheet" href="../css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="../css/simple-line-icons.css" type="text/css" />
+  <link rel="stylesheet" href="../css/font.css" type="text/css" />
+  <link rel="stylesheet" href="community.css" type="text/css" />  
     <!--[if lt IE 9]>
     <script src="js/ie/html5shiv.js"></script>
     <script src="js/ie/respond.min.js"></script>
@@ -19,397 +19,7 @@
   <![endif]-->
 </head>
 <body class="">
-  <section class="vbox">
-    <header class="bg-black header header-md navbar navbar-fixed-top-xs">
-      <div class="navbar-header aside bg-info dk nav-xs">
-        <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html">
-          <i class="icon-list"></i>
-        </a>
-        <a href="index.html" class="navbar-brand text-lt">
-          <img src="images/as.png" alt="." >
-          <span class="hidden-nav-xs m-l-sm"> <img src="images/logo.png" alt="." ></span>
-        </a>
-        <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".user">
-          <i class="icon-settings"></i>
-        </a>
-      </div>      <ul class="nav navbar-nav hidden-xs">
-        <li>
-          <a href="#nav,.navbar-header" data-toggle="class:nav-xs,nav-xs" class="text-muted">
-            <i class="fa fa-indent text"></i>
-            <i class="fa fa-dedent text-active"></i>
-          </a>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left input-s-lg m-t m-l-n-xs hidden-xs" role="search">
-        <div class="form-group">
-          <div class="input-group">
-            <span class="input-group-btn">
-              <button type="submit" class="btn btn-sm bg-socl btn-icon"><i class="fa fa-search"></i></button>
-            </span>
-            <input type="text" class="form-control input-sm no-border bg-socl" placeholder="Search lessons, courses...">
-          </div>
-        </div>
-      </form>
-      <div class="navbar-right ">
-        <ul class="nav navbar-nav m-n hidden-xs nav-user user">
-          <li class="hidden-xs">
-            <a href="#" class="dropdown-toggle lt" data-toggle="dropdown">
-              <i class="icon-bell"></i>
-              <span class="badge badge-sm up bg-danger count">2</span>
-            </a>
-            <section class="dropdown-menu aside-xl animated fadeInUp">
-              <section class="panel bg-white">
-                <div class="panel-heading b-light bg-light">
-                  <strong>You have <span class="count">2</span> notifications</strong>
-                </div>
-                <div class="list-group list-group-alt">
-                  <a href="#" class="media list-group-item">
-                    <span class="pull-left thumb-sm">
-                      <img src="images/a0.png" alt="..." class="img-circle">
-                    </span>
-                    <span class="media-body block m-b-none">
-                      Use awesome animate.css<br>
-                      <small class="text-muted">10 minutes ago</small>
-                    </span>
-                  </a>
-                  <a href="#" class="media list-group-item">
-                    <span class="media-body block m-b-none">
-                      1.0 initial released<br>
-                      <small class="text-muted">1 hour ago</small>
-                    </span>
-                  </a>
-                </div>
-                <div class="panel-footer text-sm">
-                  <a href="#" class="pull-right"><i class="fa fa-cog"></i></a>
-                  <a href="#notes" data-toggle="class:show animated fadeInRight">See all the notifications</a>
-                </div>
-              </section>
-            </section>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle bg clear" data-toggle="dropdown">
-              <span class="thumb-sm avatar pull-right m-t-n-sm m-b-n-sm m-l-sm">
-                <img src="images/a0.png" alt="...">
-              </span>
-              Akane Tsu <b class="caret"></b>
-            </a>
-            <section class="dropdown-menu aside-lg bg-white on animated fadeInLeft">
-            <div class="row m-l-none m-r-none m-t m-b text-center">
-        <div class="col-xs-4">
-                <div class="padder-v">
-                  <a href="profile.html">
-                    <span class="m-b-xs block">
-                       <i class="fa bookm"></i>
-                    </span>
-                    <small class="text-muted">Profile</small>
-                  </a>
-                </div>
-              </div>
-              <div class="col-xs-4">
-                <div class="padder-v">
-                  <a href="bookmarks.html">
-                    <span class="m-b-xs block">
-                       <i class="fa bookm2"></i>
-                    </span>
-                    <small class="text-muted">Bookmarks</small>
-                  </a>
-                </div>
-              </div>
-              <div class="col-xs-4">
-                <div class="padder-v">
-                  <a href="playlists.html">
-                    <span class="m-b-xs block">
-                      <i class="fa bookm6"></i>
-                    </span>
-                    <small class="text-muted">Playlists</small>
-                  </a>
-                </div>
-              </div>
-              <div class="col-xs-4">
-                <div class="padder-v">
-                  <a href="certificates.html">
-                    <span class="m-b-xs block">
-                      <i class="fa bookm3"></i>
-                    </span>
-                    <small class="text-muted">Certificates</small>
-                  </a>
-                </div>
-              </div>
-              <div class="col-xs-4">
-                <div class="padder-v">
-                  <a href="settings.html">
-                    <span class="m-b-xs block">
-                      <i class="fa bookm4"></i>
-                    </span>
-                    <small class="text-muted">Settings</small>
-                  </a>
-                </div>
-              </div>
-              <div class="col-xs-4">
-                <div class="padder-v">
-                  <a href="signin.html">
-                    <span class="m-b-xs block">
-                      <i class="fa bookm5"></i>
-                    </span>
-                    <small class="text-muted">Sign Out</small>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </section>
-          </li>
-        </ul>
-      </div>      
-    </header>
-    <section>
-      <section class="hbox stretch">
-        <!-- .aside -->
-        <aside class="bg-black dk nav-xs aside hidden-print" id="nav">          
-          <section class="vbox">
-            <section class="w-f-md scrollable">
-              <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="10px" data-railOpacity="0.2">
-                
-
-
-                <!-- nav -->                 
-                <nav class="nav-primary hidden-xs">
-                  <ul class="nav bg clearfix">
-                    <li class="hidden-nav-xs padder m-t m-b-sm text-xs text-muted">
-                      Learn
-                    </li>
-                    <li>
-                      <a href="courses.html">
-                         <i class="fa fa-play icon bg-info"></i>
-                        <span class="font-bold">Courses</span>
-                      </a>
-                    </li>
-          
-          <li>
-                      <a href="paths.html">
-                         <i><img src="images/ics.png" alt="..."></i>
-                        <span class="font-bold">Learning Paths</span>
-                      </a>
-                    </li>
-                    <li class="m-b hidden-nav-xs"></li>
-                  </ul>
-                  <ul class="nav" data-ride="collapse">
-                    <li class="hidden-nav-xs padder m-t m-b-sm text-xs text-muted">
-                      More
-                    </li>
-          <li>
-                      <a href="#">
-              <span class="pull-right text-muted">
-                          <i class="fa fa-angle-left text"></i>
-                          <i class="fa fa-angle-down text-active"></i>
-                        </span>
-                        <i><img src="images/hel.png" alt="..."></i>
-                        <span class="font-bold">Community</span>
-                      </a>
-            <ul class="nav dk text-sm">
-                        <li >
-                          <a href="helpdesk.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Helpdesk</span>
-                          </a>
-                        </li>
-            <li >
-                          <a href="community.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Forum</span>
-                          </a>
-                        </li>
-            <li >
-                          <a href="blog.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Blog</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li >
-                      <a href="#" class="auto">
-                        <span class="pull-right text-muted">
-                          <i class="fa fa-angle-left text"></i>
-                          <i class="fa fa-angle-down text-active"></i>
-                        </span>
-                         <i><img src="images/sal.png" alt="..."></i>
-                        <span>Level Chef</span>
-                      </a>
-                      <ul class="nav dk text-sm">
-                        <li >
-                          <a href="about.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>About Us</span>
-                          </a>
-                        </li>
-            <li >
-                          <a href="features.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Features</span>
-                          </a>
-                        </li>
-            <li >
-                          <a href="pricing.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Pricing</span>
-                          </a>
-                        </li>
-            <li >
-                          <a href="press.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Press / Media</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-          <li>
-                      <a href="store.html" class="auto">
-                        <span class="pull-right text-muted">
-                        </span>
-                        <i><img src="images/cart.png" alt="..."></i>
-                        <span>Market</span>
-                      </a>
-                    </li>
-          
-                  </ul>
-                </nav>
-                <!-- / nav -->
-              </div>
-            </section>
-            
-            <footer class="footer hidden-xs no-padder text-center-nav-xs">
-              <div class="bg hidden-xs ">
-                  <div class="dropdown dropup wrapper-sm clearfix">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" rel="tooltip" data-placement="top" title="Help!">
-                      <span class="thumb-sm avatar pull-left m-l-xs">                        
-                        <img src="images/a3.png" class="dker" alt="...">
-                        <i class="on b-black"></i>
-                      </span>
-                      <span class="hidden-nav-xs clear">
-                        <span class="block m-l">
-                          <strong class="font-bold text-lt">Chris Redfield</strong> 
-                          <b class="caret"></b>
-                        </span>
-                        <span class="text-muted text-xs block m-l">Osaka | Japan</span>
-                      </span>
-                    </a>
-                    <ul class="dropdown-menu animated fadeInRight aside text-left">                      
-                      <li>
-                <a href="support.html">Tutor & Support</a>
-              </li>
-              <li>
-                <a href="maila.html">
-                  <span class="badge bg-danger pull-right">3</span>
-                  Inbox
-                </a>
-              </li>
-              <li class="divider"></li>
-              <li>
-                <a href="modal.lockme.html" data-toggle="ajaxModal" >Sign Out</a>
-        
-              </li>
-                    </ul>
-                  </div>
-                </div>            </footer>
-          </section>
-        </aside>
-        <!-- /.aside -->
-        <section id="content">
-          <section class="vbox">
-            <section id="bjax-target">
-              <section class="hbox stretch">
-                <!-- side content -->
-                <aside class="aside bg-light dk" id="sidebar">
-                  <section class="vbox animated fadeInUp">
-          <header class="bg-danger header clearfix">
-                      <div class="btn-toolbar">
-                        <div class="btn-group select">
-                          <button class="btn btn-default btn-sm btn-bg dropdown-toggle" data-toggle="dropdown">
-                            <span class="dropdown-label" style="width: 65px;">Filter</span>                    
-                            <span class="caret"></span>
-                          </button>
-                          <ul class="dropdown-menu text-left text-sm">
-                            <li><a href="#">Most recent</a></li>
-                            <li><a href="#">Popular</a></li>
-              <li><a href="#">Top</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </header>
-                    <section class="scrollable hover bg-dangerx">
-          
-                      <div class="list-group no-radius no-border no-bg m-t-n-xxs m-b-none auto">
-                        <a href="genres.html" class="list-group-item">
-                          All
-                        </a>
-                        <a href="genres.html" class="list-group-item active">
-                          General Cooking
-                        </a>
-            <a href="genres.html" class="list-group-item">
-                          Ingredients
-                        </a>
-            <a href="genres.html" class="list-group-item">
-                          Tecnical topics
-                        </a>
-            <a href="genres.html" class="list-group-item">
-                          Meats
-                        </a>
-            <a href="genres.html" class="list-group-item">
-                          Veggies
-                        </a>
-            <a href="genres.html" class="list-group-item">
-                          Desserts
-                        </a>
-                        <a href="genres.html" class="list-group-item">
-                          Cookware & Accesories
-                        </a>
-                        <a href="genres.html" class="list-group-item">
-                          Techniques
-                        </a>
-                        <a href="genres.html" class="list-group-item">
-                          Health & Nutrition
-                        </a>
-                        <a href="genres.html" class="list-group-item">
-                          Beverages
-                        </a>
-                        <a href="genres.html" class="list-group-item">
-                          Kitchen Safety
-                        </a>
-                        <a href="genres.html" class="list-group-item">
-                          Gardening
-                        </a>
-                        <a href="genres.html" class="list-group-item">
-                          Canning and Preserving
-                        </a>
-                        <a href="genres.html" class="list-group-item">
-                          Substitutions
-                        </a>
-            <a href="genres.html" class="list-group-item">
-                          Business
-                        </a>
-                        <a href="genres.html" class="list-group-item">
-                          LevelChef
-                        </a>
-            <a href="genres.html" class="list-group-item">
-                          Off Topic
-                        </a>
-                        
-                      </div>
-                    </section>
-                  </section>
-                </aside>
-                <!-- / side content -->
-                <section>
-                  <section class="vbox bg-white">
-                    <section class="scrollable">
-           <section class="vbox">
+             <section class="vbox">
                     <header class="header bg-grisa lt">
                       <ul class="nav nav-tabs nav-white">
                         <li class="active"><a href="#tecnical" data-toggle="tab">Most recent</a></li>
@@ -434,10 +44,10 @@
                           <ul class="list-group no-radius m-b-none m-t-n-xxs list-group-lg no-border">
                             <li class="list-group-item">
                               <a href="#" class="thumb-md pull-left m-r-sm" data-toggle="tooltip" data-placement="top" title="Leonsway">
-                                <img src="images/a0.png" class="img-circle">
+                                <img src="../images/a0.png" class="-circle">
                               </a>
                               <a href="community-single.html" class="clear">
-                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="images/coment.png" alt="...">21</i></small>
+                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="../images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="../images/coment.png" alt="...">21</i></small>
                                 <strong class="block linkear">Hand Protection Tool</strong>
                 <span class="text-muted text-xs block">
                                    General cooking
@@ -447,10 +57,10 @@
                             </li>
                             <li class="list-group-item">
                               <a href="#" class="thumb-md pull-left m-r-sm" data-toggle="tooltip" data-placement="top" title="Leonsway">
-                                <img src="images/a3.png" class="img-circle">
+                                <img src="../images/a3.png" class="img-circle">
                               </a>
                               <a href="community-single.html" class="clear">
-                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="images/coment.png" alt="...">21</i></small>
+                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="../images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="../images/coment.png" alt="...">21</i></small>
                                 <strong class="block linkear">Hand Protection Tool</strong>
                 <span class="text-muted text-xs block">
                                    General cooking
@@ -460,10 +70,10 @@
                             </li>
                             <li class="list-group-item">
                               <a href="#" class="thumb-md pull-left m-r-sm" data-toggle="tooltip" data-placement="top" title="Leonsway">
-                                <img src="images/a3.png" class="img-circle">
+                                <img src="../images/a3.png" class="img-circle">
                               </a>
                               <a href="community-single.html" class="clear">
-                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="images/coment.png" alt="...">21</i></small>
+                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="../images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="../images/coment.png" alt="...">21</i></small>
                                 <strong class="block linkear">Hand Protection Tool</strong>
                 <span class="text-muted text-xs block">
                                    General cooking
@@ -473,10 +83,10 @@
                             </li>
                             <li class="list-group-item">
                               <a href="#" class="thumb-md pull-left m-r-sm" data-toggle="tooltip" data-placement="top" title="Leonsway">
-                                <img src="images/a3.png" class="img-circle">
+                                <img src="../images/a3.png" class="img-circle">
                               </a>
                               <a href="community-single.html" class="clear">
-                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="images/coment.png" alt="...">21</i></small>
+                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="../images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="../images/coment.png" alt="...">21</i></small>
                                 <strong class="block linkear">Hand Protection Tool</strong>
                 <span class="text-muted text-xs block">
                                    General cooking
@@ -486,10 +96,10 @@
                             </li>
               <li class="list-group-item">
                               <a href="#" class="thumb-md pull-left m-r-sm" data-toggle="tooltip" data-placement="top" title="Leonsway">
-                                <img src="images/a3.png" class="img-circle">
+                                <img src="../images/a3.png" class="img-circle">
                               </a>
                               <a href="community-single.html" class="clear">
-                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="images/coment.png" alt="...">21</i></small>
+                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="../images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="../images/coment.png" alt="...">21</i></small>
                                 <strong class="block linkear">Hand Protection Tool</strong>
                 <span class="text-muted text-xs block">
                                    General cooking
@@ -499,10 +109,10 @@
                             </li>
               <li class="list-group-item">
                               <a href="#" class="thumb-md pull-left m-r-sm" data-toggle="tooltip" data-placement="top" title="Leonsway">
-                                <img src="images/a3.png" class="img-circle">
+                                <img src="../images/a3.png" class="img-circle">
                               </a>
                               <a href="community-single.html" class="clear">
-                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="images/coment.png" alt="...">21</i></small>
+                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="../images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="../images/coment.png" alt="...">21</i></small>
                                 <strong class="block linkear">Hand Protection Tool</strong>
                 <span class="text-muted text-xs block">
                                    General cooking
@@ -512,10 +122,10 @@
                             </li>
               <li class="list-group-item">
                               <a href="#" class="thumb-md pull-left m-r-sm" data-toggle="tooltip" data-placement="top" title="Leonsway">
-                                <img src="images/a3.png" class="img-circle">
+                                <img src="../images/a3.png" class="img-circle">
                               </a>
                               <a href="community-single.html" class="clear">
-                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="images/coment.png" alt="...">21</i></small>
+                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="../images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="../images/coment.png" alt="...">21</i></small>
                                 <strong class="block linkear">Hand Protection Tool</strong>
                 <span class="text-muted text-xs block">
                                    General cooking
@@ -525,10 +135,10 @@
                             </li>
               <li class="list-group-item">
                               <a href="#" class="thumb-md pull-left m-r-sm" data-toggle="tooltip" data-placement="top" title="Leonsway">
-                                <img src="images/a3.png" class="img-circle">
+                                <img src="../images/a3.png" class="img-circle">
                               </a>
                               <a href="community-single.html" class="clear">
-                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="images/coment.png" alt="...">21</i></small>
+                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="../images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="../images/coment.png" alt="...">21</i></small>
                                 <strong class="block linkear">Hand Protection Tool</strong>
                 <span class="text-muted text-xs block">
                                    General cooking
@@ -538,10 +148,10 @@
                             </li>
               <li class="list-group-item">
                               <a href="#" class="thumb-md pull-left m-r-sm" data-toggle="tooltip" data-placement="top" title="Leonsway">
-                                <img src="images/a3.png" class="img-circle">
+                                <img src="../images/a3.png" class="img-circle">
                               </a>
                               <a href="community-single.html" class="clear">
-                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="images/coment.png" alt="...">21</i></small>
+                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="../images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="../images/coment.png" alt="...">21</i></small>
                                 <strong class="block linkear">Hand Protection Tool</strong>
                 <span class="text-muted text-xs block">
                                    General cooking
@@ -551,10 +161,10 @@
                             </li>
               <li class="list-group-item">
                               <a href="#" class="thumb-md pull-left m-r-sm" data-toggle="tooltip" data-placement="top" title="Leonsway">
-                                <img src="images/a3.png" class="img-circle">
+                                <img src="../images/a3.png" class="img-circle">
                               </a>
                               <a href="community-single.html" class="clear">
-                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="images/coment.png" alt="...">21</i></small>
+                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="../images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="../images/coment.png" alt="...">21</i></small>
                                 <strong class="block linkear">Hand Protection Tool</strong>
                 <span class="text-muted text-xs block">
                                    General cooking
@@ -564,10 +174,10 @@
                             </li>
               <li class="list-group-item">
                               <a href="#" class="thumb-md pull-left m-r-sm" data-toggle="tooltip" data-placement="top" title="Leonsway">
-                                <img src="images/a3.png" class="img-circle">
+                                <img src="../images/a3.png" class="img-circle">
                               </a>
                               <a href="community-single.html" class="clear">
-                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="images/coment.png" alt="...">21</i></small>
+                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="../images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="../images/coment.png" alt="...">21</i></small>
                                 <strong class="block linkear">Hand Protection Tool</strong>
                 <span class="text-muted text-xs block">
                                    General cooking
@@ -577,10 +187,10 @@
                             </li>
               <li class="list-group-item">
                               <a href="#" class="thumb-md pull-left m-r-sm" data-toggle="tooltip" data-placement="top" title="Leonsway">
-                                <img src="images/a3.png" class="img-circle">
+                                <img src="../images/a3.png" class="img-circle">
                               </a>
                               <a href="community-single.html" class="clear">
-                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="images/coment.png" alt="...">21</i></small>
+                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="../images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="../images/coment.png" alt="...">21</i></small>
                                 <strong class="block linkear">Hand Protection Tool</strong>
                 <span class="text-muted text-xs block">
                                    General cooking
@@ -590,10 +200,10 @@
                             </li>
               <li class="list-group-item">
                               <a href="#" class="thumb-md pull-left m-r-sm" data-toggle="tooltip" data-placement="top" title="Leonsway">
-                                <img src="images/a3.png" class="img-circle">
+                                <img src="../images/a3.png" class="img-circle">
                               </a>
                               <a href="community-single.html" class="clear">
-                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="images/coment.png" alt="...">21</i></small>
+                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="../images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="../images/coment.png" alt="...">21</i></small>
                                 <strong class="block linkear">Hand Protection Tool</strong>
                 <span class="text-muted text-xs block">
                                    General cooking
@@ -603,10 +213,10 @@
                             </li>
               <li class="list-group-item">
                               <a href="#" class="thumb-md pull-left m-r-sm" data-toggle="tooltip" data-placement="top" title="Leonsway">
-                                <img src="images/a3.png" class="img-circle">
+                                <img src="../images/a3.png" class="img-circle">
                               </a>
                               <a href="community-single.html" class="clear">
-                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="images/coment.png" alt="...">21</i></small>
+                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="../images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="../images/coment.png" alt="...">21</i></small>
                                 <strong class="block linkear">Hand Protection Tool</strong>
                 <span class="text-muted text-xs block">
                                    General cooking
@@ -616,10 +226,10 @@
                             </li>
               <li class="list-group-item">
                               <a href="#" class="thumb-md pull-left m-r-sm" data-toggle="tooltip" data-placement="top" title="Leonsway">
-                                <img src="images/a3.png" class="img-circle">
+                                <img src="../images/a3.png" class="img-circle">
                               </a>
                               <a href="community-single.html" class="clear">
-                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="images/coment.png" alt="...">21</i></small>
+                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="../images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="../images/coment.png" alt="...">21</i></small>
                                 <strong class="block linkear">Hand Protection Tool</strong>
                 <span class="text-muted text-xs block">
                                    General cooking
@@ -629,10 +239,10 @@
                             </li>
               <li class="list-group-item">
                               <a href="#" class="thumb-md pull-left m-r-sm" data-toggle="tooltip" data-placement="top" title="Leonsway">
-                                <img src="images/a3.png" class="img-circle">
+                                <img src="../images/a3.png" class="img-circle">
                               </a>
                               <a href="community-single.html" class="clear">
-                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="images/coment.png" alt="...">21</i></small>
+                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="../images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="../images/coment.png" alt="...">21</i></small>
                                 <strong class="block linkear">Hand Protection Tool</strong>
                 <span class="text-muted text-xs block">
                                    General cooking
@@ -642,10 +252,10 @@
                             </li>
               <li class="list-group-item">
                               <a href="#" class="thumb-md pull-left m-r-sm" data-toggle="tooltip" data-placement="top" title="Leonsway">
-                                <img src="images/a3.png" class="img-circle">
+                                <img src="../images/a3.png" class="img-circle">
                               </a>
                               <a href="community-single.html" class="clear">
-                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="images/coment.png" alt="...">21</i></small>
+                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="../images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="../images/coment.png" alt="...">21</i></small>
                                 <strong class="block linkear">Hand Protection Tool</strong>
                 <span class="text-muted text-xs block">
                                    General cooking
@@ -655,10 +265,10 @@
                             </li>
               <li class="list-group-item">
                               <a href="#" class="thumb-md pull-left m-r-sm" data-toggle="tooltip" data-placement="top" title="Leonsway">
-                                <img src="images/a3.png" class="img-circle">
+                                <img src="../images/a3.png" class="img-circle">
                               </a>
                               <a href="community-single.html" class="clear">
-                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="images/coment.png" alt="...">21</i></small>
+                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="../images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="../images/coment.png" alt="...">21</i></small>
                                 <strong class="block linkear">Hand Protection Tool</strong>
                 <span class="text-muted text-xs block">
                                    General cooking
@@ -668,10 +278,10 @@
                             </li>
               <li class="list-group-item">
                               <a href="#" class="thumb-md pull-left m-r-sm" data-toggle="tooltip" data-placement="top" title="Leonsway">
-                                <img src="images/a3.png" class="img-circle">
+                                <img src="../images/a3.png" class="img-circle">
                               </a>
                               <a href="community-single.html" class="clear">
-                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="images/coment.png" alt="...">21</i></small>
+                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="../images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="../images/coment.png" alt="...">21</i></small>
                                 <strong class="block linkear">Hand Protection Tool</strong>
                 <span class="text-muted text-xs block">
                                    General cooking
@@ -681,10 +291,10 @@
                             </li>
               <li class="list-group-item">
                               <a href="#" class="thumb-md pull-left m-r-sm" data-toggle="tooltip" data-placement="top" title="Leonsway">
-                                <img src="images/a3.png" class="img-circle">
+                                <img src="../images/a3.png" class="img-circle">
                               </a>
                               <a href="community-single.html" class="clear">
-                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="images/coment.png" alt="...">21</i></small>
+                                <small class="pull-right">Today 04:48 PM<br><i class="text" data-toggle="tooltip" data-placement="left" title="Views"><img src="../images/ojoa.png" alt="..."> 21</i> <i class="text" data-toggle="tooltip" data-placement="left" title="Replies"> <img src="../images/coment.png" alt="...">21</i></small>
                                 <strong class="block linkear">Hand Protection Tool</strong>
                 <span class="text-muted text-xs block">
                                    General cooking
@@ -799,7 +409,7 @@
                            <!-- chat -->
                     <section class="chat-list panel-body">
                       <article id="chat-id-1" class="chat-item left">
-                        <a href="#" class="pull-left thumb-sm avatar"><img src="images/yo.png" alt="..."></a>
+                        <a href="#" class="pull-left thumb-sm avatar"><img src="../images/yo.png" alt="..."></a>
                         <section class="chat-body">
                           <div class="panel b-light text-sm m-b-none">
                             <div class="panel-body">
@@ -811,7 +421,7 @@
                         </section>
                       </article>
                       <article id="chat-id-2" class="chat-item right">
-                        <a href="#" class="pull-right thumb-sm avatar"><img src="images/a3.png" class="img-circle" alt="..."></a>
+                        <a href="#" class="pull-right thumb-sm avatar"><img src="../images/a3.png" class="img-circle" alt="..."></a>
                         <section class="chat-body">                      
                           <div class="panel bg-light text-sm m-b-none">
                             <div class="panel-body">
@@ -823,7 +433,7 @@
                         </section>
                       </article>  
                        <article id="chat-id-1" class="chat-item left">
-                        <a href="#" class="pull-left thumb-sm avatar"><img src="images/yo.png" alt="..."></a>
+                        <a href="#" class="pull-left thumb-sm avatar"><img src="../images/yo.png" alt="..."></a>
                         <section class="chat-body">
                           <div class="panel b-light text-sm m-b-none">
                             <div class="panel-body">
@@ -835,7 +445,7 @@
                         </section>
                       </article>  
                     <article id="chat-id-2" class="chat-item right">
-                        <a href="#" class="pull-right thumb-sm avatar"><img src="images/a3.png" class="img-circle" alt="..."></a>
+                        <a href="#" class="pull-right thumb-sm avatar"><img src="../images/a3.png" class="img-circle" alt="..."></a>
                         <section class="chat-body">                      
                           <div class="panel bg-light text-sm m-b-none">
                             <div class="panel-body">
@@ -850,7 +460,7 @@
                     <footer class="panel-footer">
                       <!-- chat form -->
                       <article class="chat-item" id="chat-form">
-                        <a class="pull-left thumb-sm avatar"><img src="images/a3.png" class="img-circle" alt="..."></a>
+                        <a class="pull-left thumb-sm avatar"><img src="../images/a3.png" class="img-circle" alt="..."></a>
                         <section class="chat-body">
                           <form action="index.html" class="m-b-none">
                             <div class="input-group">
@@ -877,30 +487,20 @@
                     </section>
           
           
-                  </section>                   
-                  </section>
-                </section>
-              </section>
-            </section>
-          </section>
-          <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen,open" data-target="#nav,html"></a>
-        </section>
-      </section>
-    </section>    
-  </section>
-  <script src="js/jquery.min.js"></script>
+                  </section>   
+  <script src="../js/jquery.min.js"></script>
   <!-- Bootstrap -->
-  <script src="js/bootstrap.js"></script>
+  <script src="../js/bootstrap.js"></script>
   <!-- App -->
-  <script src="js/app.js"></script>  
-  <script src="js/slimscroll/jquery.slimscroll.min.js"></script>
-    <script src="js/app.plugin.js"></script>
-  <script type="text/javascript" src="js/jPlayer/jquery.jplayer.min.js"></script>
-  <script type="text/javascript" src="js/jPlayer/add-on/jplayer.playlist.min.js"></script>
-  <script type="text/javascript" src="js/jPlayer/demo.js"></script>
+  <script src="../js/app.js"></script>  
+  <script src="../js/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="../js/app.plugin.js"></script>
+  <script type="text/javascript" src="../js/jPlayer/jquery.jplayer.min.js"></script>
+  <script type="text/javascript" src="../js/jPlayer/add-on/jplayer.playlist.min.js"></script>
+  <script type="text/javascript" src="../js/jPlayer/demo.js"></script>
   <!-- wysiwyg -->
-  <script src="js/wysiwyg/jquery.hotkeys.js"></script>
-  <script src="js/wysiwyg/bootstrap-wysiwyg.js"></script>
-  <script src="js/wysiwyg/demo.js"></script>
+  <script src="../js/wysiwyg/jquery.hotkeys.js"></script>
+  <script src="../js/wysiwyg/bootstrap-wysiwyg.js"></script>
+  <script src="../js/wysiwyg/demo.js"></script>
 </body>
 </html>

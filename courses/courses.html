@@ -5,13 +5,13 @@
   <title>Level Chef | Courses</title>
   <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <link rel="stylesheet" href="js/jPlayer/jplayer.flat.css" type="text/css" />
-  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-  <link rel="stylesheet" href="css/animate.css" type="text/css" />
-  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
-  <link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" />
-  <link rel="stylesheet" href="css/font.css" type="text/css" />
-  <link rel="stylesheet" href="css/app.css" type="text/css" />  
+  <link rel="stylesheet" href="../js/jPlayer/jplayer.flat.css" type="text/css" />
+  <link rel="stylesheet" href="../css/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="../css/animate.css" type="text/css" />
+  <link rel="stylesheet" href="../css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="../css/simple-line-icons.css" type="text/css" />
+  <link rel="stylesheet" href="../css/font.css" type="text/css" />
+  <link rel="stylesheet" href="courses.css" type="text/css" />  
     <!--[if lt IE 9]>
     <script src="js/ie/html5shiv.js"></script>
     <script src="js/ie/respond.min.js"></script>
@@ -19,409 +19,8 @@
   <![endif]-->
 </head>
 <body class="">
-  <section class="vbox">
-    <header class="bg-black header header-md navbar navbar-fixed-top-xs">
-      <div class="navbar-header aside bg-info dk nav-xs">
-        <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html">
-          <i class="icon-list"></i>
-        </a>
-        <a href="index.html" class="navbar-brand text-lt">
-          <img src="images/as.png" alt="." >
-          <span class="hidden-nav-xs m-l-sm"> <img src="images/logo.png" alt="." ></span>
-        </a>
-        <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".user">
-          <i class="icon-settings"></i>
-        </a>
-      </div>      <ul class="nav navbar-nav hidden-xs">
-        <li>
-          <a href="#nav,.navbar-header" data-toggle="class:nav-xs,nav-xs" class="text-muted">
-            <i class="fa fa-indent text"></i>
-            <i class="fa fa-dedent text-active"></i>
-          </a>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left input-s-lg m-t m-l-n-xs hidden-xs" role="search">
-        <div class="form-group">
-          <div class="input-group">
-            <span class="input-group-btn">
-              <button type="submit" class="btn btn-sm bg-socl btn-icon"><i class="fa fa-search"></i></button>
-            </span>
-            <input type="text" class="form-control input-sm no-border bg-socl" placeholder="Search lessons, courses...">
-          </div>
-        </div>
-      </form>
-      <div class="navbar-right ">
-        <ul class="nav navbar-nav m-n hidden-xs nav-user user">
-          <li class="hidden-xs">
-            <a href="#" class="dropdown-toggle lt" data-toggle="dropdown">
-              <i class="icon-bell"></i>
-              <span class="badge badge-sm up bg-danger count">2</span>
-            </a>
-            <section class="dropdown-menu aside-xl animated fadeInUp">
-              <section class="panel bg-white">
-                <div class="panel-heading b-light bg-light">
-                  <strong>You have <span class="count">2</span> notifications</strong>
-                </div>
-                <div class="list-group list-group-alt">
-                  <a href="#" class="media list-group-item">
-                    <span class="pull-left thumb-sm">
-                      <img src="images/a0.png" alt="..." class="img-circle">
-                    </span>
-                    <span class="media-body block m-b-none">
-                      Use awesome animate.css<br>
-                      <small class="text-muted">10 minutes ago</small>
-                    </span>
-                  </a>
-                  <a href="#" class="media list-group-item">
-                    <span class="media-body block m-b-none">
-                      1.0 initial released<br>
-                      <small class="text-muted">1 hour ago</small>
-                    </span>
-                  </a>
-                </div>
-                <div class="panel-footer text-sm">
-                  <a href="#" class="pull-right"><i class="fa fa-cog"></i></a>
-                  <a href="#notes" data-toggle="class:show animated fadeInRight">See all the notifications</a>
-                </div>
-              </section>
-            </section>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle bg clear" data-toggle="dropdown">
-              <span class="thumb-sm avatar pull-right m-t-n-sm m-b-n-sm m-l-sm">
-                <img src="images/a0.png" alt="...">
-              </span>
-              Akane Tsu <b class="caret"></b>
-            </a>
-            <section class="dropdown-menu aside-lg bg-white on animated fadeInLeft">
-            <div class="row m-l-none m-r-none m-t m-b text-center">
-        <div class="col-xs-4">
-                <div class="padder-v">
-                  <a href="profile.html">
-                    <span class="m-b-xs block">
-                       <i class="fa bookm"></i>
-                    </span>
-                    <small class="text-muted">Profile</small>
-                  </a>
-                </div>
-              </div>
-              <div class="col-xs-4">
-                <div class="padder-v">
-                  <a href="bookmarks.html">
-                    <span class="m-b-xs block">
-                       <i class="fa bookm2"></i>
-                    </span>
-                    <small class="text-muted">Bookmarks</small>
-                  </a>
-                </div>
-              </div>
-              <div class="col-xs-4">
-                <div class="padder-v">
-                  <a href="playlists.html">
-                    <span class="m-b-xs block">
-                      <i class="fa bookm6"></i>
-                    </span>
-                    <small class="text-muted">Playlists</small>
-                  </a>
-                </div>
-              </div>
-              <div class="col-xs-4">
-                <div class="padder-v">
-                  <a href="certificates.html">
-                    <span class="m-b-xs block">
-                      <i class="fa bookm3"></i>
-                    </span>
-                    <small class="text-muted">Certificates</small>
-                  </a>
-                </div>
-              </div>
-              <div class="col-xs-4">
-                <div class="padder-v">
-                  <a href="settings.html">
-                    <span class="m-b-xs block">
-                      <i class="fa bookm4"></i>
-                    </span>
-                    <small class="text-muted">Settings</small>
-                  </a>
-                </div>
-              </div>
-              <div class="col-xs-4">
-                <div class="padder-v">
-                  <a href="signin.html">
-                    <span class="m-b-xs block">
-                      <i class="fa bookm5"></i>
-                    </span>
-                    <small class="text-muted">Sign Out</small>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </section>
-          </li>
-        </ul>
-      </div>      
-    </header>
-    <section>
-      <section class="hbox stretch">
-        <!-- .aside -->
-        <aside class="bg-black dk nav-xs aside hidden-print" id="nav">          
-          <section class="vbox">
-            <section class="w-f-md scrollable">
-              <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="10px" data-railOpacity="0.2">
-                
-
-
-                <!-- nav -->                 
-                <nav class="nav-primary hidden-xs">
-                  <ul class="nav bg clearfix">
-                    <li class="hidden-nav-xs padder m-t m-b-sm text-xs text-muted">
-                      Learn
-                    </li>
-                    <li>
-                      <a href="courses.html">
-                         <i class="fa fa-play icon bg-info"></i>
-                        <span class="font-bold">Courses</span>
-                      </a>
-                    </li>
-          
-          <li>
-                      <a href="paths.html">
-                         <i><img src="images/ics.png" alt="..."></i>
-                        <span class="font-bold">Learning Paths</span>
-                      </a>
-                    </li>
-                    <li class="m-b hidden-nav-xs"></li>
-                  </ul>
-                  <ul class="nav" data-ride="collapse">
-                    <li class="hidden-nav-xs padder m-t m-b-sm text-xs text-muted">
-                      More
-                    </li>
-          <li>
-                      <a href="#">
-              <span class="pull-right text-muted">
-                          <i class="fa fa-angle-left text"></i>
-                          <i class="fa fa-angle-down text-active"></i>
-                        </span>
-                        <i><img src="images/hel.png" alt="..."></i>
-                        <span class="font-bold">Community</span>
-                      </a>
-            <ul class="nav dk text-sm">
-                        <li >
-                          <a href="helpdesk.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Helpdesk</span>
-                          </a>
-                        </li>
-            <li >
-                          <a href="community.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Forum</span>
-                          </a>
-                        </li>
-            <li >
-                          <a href="blog.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Blog</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li >
-                      <a href="#" class="auto">
-                        <span class="pull-right text-muted">
-                          <i class="fa fa-angle-left text"></i>
-                          <i class="fa fa-angle-down text-active"></i>
-                        </span>
-                         <i><img src="images/sal.png" alt="..."></i>
-                        <span>Level Chef</span>
-                      </a>
-                      <ul class="nav dk text-sm">
-                        <li >
-                          <a href="about.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>About Us</span>
-                          </a>
-                        </li>
-            <li >
-                          <a href="features.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Features</span>
-                          </a>
-                        </li>
-            <li >
-                          <a href="pricing.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Pricing</span>
-                          </a>
-                        </li>
-            <li >
-                          <a href="press.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Press / Media</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-          <li>
-                      <a href="store.html" class="auto">
-                        <span class="pull-right text-muted">
-                        </span>
-                        <i><img src="images/cart.png" alt="..."></i>
-                        <span>Market</span>
-                      </a>
-                    </li>
-          
-                  </ul>
-                </nav>
-                <!-- / nav -->
-              </div>
-            </section>
-            
-            <footer class="footer hidden-xs no-padder text-center-nav-xs">
-              <div class="bg hidden-xs ">
-                  <div class="dropdown dropup wrapper-sm clearfix">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" rel="tooltip" data-placement="top" title="Help!">
-                      <span class="thumb-sm avatar pull-left m-l-xs">                        
-                        <img src="images/a3.png" class="dker" alt="...">
-                        <i class="on b-black"></i>
-                      </span>
-                      <span class="hidden-nav-xs clear">
-                        <span class="block m-l">
-                          <strong class="font-bold text-lt">Chris Redfield</strong> 
-                          <b class="caret"></b>
-                        </span>
-                        <span class="text-muted text-xs block m-l">Osaka | Japan</span>
-                      </span>
-                    </a>
-                    <ul class="dropdown-menu animated fadeInRight aside text-left">                      
-                      <li>
-                <a href="support.html">Tutor & Support</a>
-              </li>
-              <li>
-                <a href="maila.html">
-                  <span class="badge bg-danger pull-right">3</span>
-                  Inbox
-                </a>
-              </li>
-              <li class="divider"></li>
-              <li>
-                <a href="modal.lockme.html" data-toggle="ajaxModal" >Sign Out</a>
-        
-              </li>
-                    </ul>
-                  </div>
-                </div>            </footer>
-          </section>
-        </aside>
-        <!-- /.aside -->
-        <section id="content">
-          <section class="vbox">
-            <section id="bjax-target">
-              <section class="hbox stretch">
-                <!-- side content -->
-                <aside class="aside bg-light dk" id="sidebar">
-                  <section class="vbox animated fadeInUp">
-                    <section class="scrollable hover bg-white">
-                      <div class="panel">
-                    <div class="panel-heading b-b">Quick Filter</div>
-                    <div class="panel-body">
-                      <ul class="list-unstyled m-t-n-sm">
-                        <li class="checkbox i-checks">
-                          <label>
-                            <input type="checkbox" checked><i></i> Fundamentals
-                          </label>
-                        </li>
-                        <li class="checkbox i-checks">
-                          <label>
-                            <input type="checkbox" checked><i></i> Sauces/extras
-                          </label>
-                        </li>
-                        <li class="checkbox i-checks">
-                          <label>
-                            <input type="checkbox"><i></i> Gourmet
-                          </label>
-                        </li>
-                        <li class="checkbox i-checks">
-                          <label>
-                            <input type="checkbox"><i></i> International
-                          </label>
-                        </li>
-                        <li class="checkbox i-checks">
-                          <label>
-                            <input type="checkbox"><i></i> Desserts
-                          </label>
-                        </li>
-                        <li class="checkbox i-checks">
-                          <label>
-                            <input type="checkbox"><i></i> Drinks
-                          </label>
-                        </li>
-                        <li class="checkbox i-checks">
-                          <label>
-                            <input type="checkbox"><i></i> Bakery
-                          </label>
-                        </li>
-            <li class="checkbox i-checks">
-                          <label>
-                            <input type="checkbox"><i></i> Pastry
-                          </label>
-                        </li>
-            <li class="checkbox i-checks">
-                          <label>
-                            <input type="checkbox"><i></i> Sea
-                          </label>
-                        </li>
-            <li class="checkbox i-checks">
-                          <label>
-                            <input type="checkbox"><i></i> Salads
-                          </label>
-                        </li>
-            <li class="checkbox i-checks">
-                          <label>
-                            <input type="checkbox"><i></i> Experimental
-                          </label>
-                        </li>
-                      </ul>
-                      <div class="line line-dashed b-b line-lg"></div>
-                      <ul class="list-unstyled">
-              <li class="radio i-checks">
-                          <label>
-                            <input type="radio" name="filter" checked><i></i> All Levels
-                          </label>
-                        </li>
-                        <li class="radio i-checks">
-                          <label>
-                            <input type="radio" name="filter" checked><i></i> Basic
-                          </label>
-                        </li>
-                        <li class="radio i-checks">
-                          <label>
-                            <input type="radio" name="filter"><i></i> Intermediate
-                          </label>
-                        </li>
-                        <li class="radio i-checks">
-                          <label>
-                            <input type="radio" name="filter"><i></i> Advanced
-                          </label>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                    </section>
-                  </section>
-                </aside>
-                <!-- / side content -->
-                <section>
-                  <section class="vbox">
-                    <section class="scrollable">
-           <img class="img-responsive" src="images/fin.jpg">
+                      <section class="scrollable">
+           <img class="img-responsive" <img src="../images/fin.jpg">
           <div class="row row-sm padder-lg"><br>
                 <div class="col-xs-12 col-sm-4">
                       <div class="item">
@@ -445,7 +44,7 @@
                               </a>
                             </div>
                           </div>
-                          <a href="#"><img src="images/m40.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img <img src="../images/m40.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
           <span class="pull-right" >
@@ -480,7 +79,7 @@
                               </a>
                             </div>
                           </div>
-                          <a href="#"><img src="images/m40.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img <img src="../images/m40.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
           <span class="pull-right" >
@@ -515,7 +114,7 @@
                               </a>
                             </div>
                           </div>
-                          <a href="#"><img src="images/m40.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img <img src="../images/m40.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
           <span class="pull-right" >
@@ -550,7 +149,7 @@
                               </a>
                             </div>
                           </div>
-                          <a href="#"><img src="images/m40.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img <img src="../images/m40.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
           <span class="pull-right" >
@@ -585,7 +184,7 @@
                               </a>
                             </div>
                           </div>
-                          <a href="#"><img src="images/m40.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img <img src="../images/m40.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
           <span class="pull-right" >
@@ -620,7 +219,7 @@
                               </a>
                             </div>
                           </div>
-                          <a href="#"><img src="images/m40.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img <img src="../images/m40.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
           <span class="pull-right" >
@@ -655,7 +254,7 @@
                               </a>
                             </div>
                           </div>
-                          <a href="#"><img src="images/m40.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img <img src="../images/m40.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
           <span class="pull-right" >
@@ -690,7 +289,7 @@
                               </a>
                             </div>
                           </div>
-                          <a href="#"><img src="images/m40.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img <img src="../images/m40.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
           <span class="pull-right" >
@@ -725,7 +324,7 @@
                               </a>
                             </div>
                           </div>
-                          <a href="#"><img src="images/m40.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img <img src="../images/m40.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
           <span class="pull-right" >
@@ -760,7 +359,7 @@
                               </a>
                             </div>
                           </div>
-                          <a href="#"><img src="images/m40.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img <img src="../images/m40.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
           <span class="pull-right" >
@@ -795,7 +394,7 @@
                               </a>
                             </div>
                           </div>
-                          <a href="#"><img src="images/m40.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img <img src="../images/m40.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
           <span class="pull-right" >
@@ -830,7 +429,7 @@
                               </a>
                             </div>
                           </div>
-                          <a href="#"><img src="images/m40.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img <img src="../images/m40.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
           <span class="pull-right" >
@@ -865,7 +464,7 @@
                               </a>
                             </div>
                           </div>
-                          <a href="#"><img src="images/m40.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img <img src="../images/m40.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
           <span class="pull-right" >
@@ -900,7 +499,7 @@
                               </a>
                             </div>
                           </div>
-                          <a href="#"><img src="images/m40.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img <img src="../images/m40.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
           <span class="pull-right" >
@@ -935,7 +534,7 @@
                               </a>
                             </div>
                           </div>
-                          <a href="#"><img src="images/m40.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img <img src="../images/m40.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
           <span class="pull-right" >
@@ -951,26 +550,16 @@
         
               </div>
                       
-                    </section>                    
-                  </section>
-                </section>
-              </section>
-            </section>
-          </section>
-          <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen,open" data-target="#nav,html"></a>
-        </section>
-      </section>
-    </section>    
-  </section>
-  <script src="js/jquery.min.js"></script>
+                    </section> 
+  <script src="../js/jquery.min.js"></script>
   <!-- Bootstrap -->
-  <script src="js/bootstrap.js"></script>
+  <script src="../js/bootstrap.js"></script>
   <!-- App -->
-  <script src="js/app.js"></script>  
-  <script src="js/slimscroll/jquery.slimscroll.min.js"></script>
-    <script src="js/app.plugin.js"></script>
-  <script type="text/javascript" src="js/jPlayer/jquery.jplayer.min.js"></script>
-  <script type="text/javascript" src="js/jPlayer/add-on/jplayer.playlist.min.js"></script>
-  <script type="text/javascript" src="js/jPlayer/demo.js"></script>
+  <script src="../js/app.js"></script>  
+  <script src="../js/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="../js/app.plugin.js"></script>
+  <script type="text/javascript" src="../js/jPlayer/jquery.jplayer.min.js"></script>
+  <script type="text/javascript" src="../js/jPlayer/add-on/jplayer.playlist.min.js"></script>
+  <script type="text/javascript" src="../js/jPlayer/demo.js"></script>
 </body>
 </html>

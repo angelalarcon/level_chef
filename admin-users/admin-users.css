@@ -1,0 +1,194 @@
+html {
+  background-color: #f2f4f8;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #2a2a2e;
+  background-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.40;
+}
+.bg-white {
+  background-color: #fff;
+  color: #2a2a2e;
+}
+.font-bold {
+  font-weight: 700;
+}
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin: 0;
+}
+.bg-white a {
+  color: #545a5f;
+}
+.thumb {
+  width: 50px;
+  display: inline-block;
+}
+.m-rx {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.thumb img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.v-middle {
+  vertical-align: middle !important;
+}
+.inline {
+  display: inline-block !important;
+}
+.input-s {
+  width: 200px;
+}
+.form-control, .form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.form-control {
+  border-color: #f7f7f7;
+  border-radius: 2px;
+  background-color: #f7f7f7;
+}
+.form-control:focus {
+  border-color: #b20000;
+  background-color: #2a2a2e;
+  color: #aeaeae;
+}
+.form-control, .form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn {
+  font-weight: 500;
+  border-radius: 2px;
+}
+.btn-default {
+  color: #2a2a2e !important;
+  background-color: #fff;
+  border-color: #dbe2e7;
+  border-bottom-color: #d5dde3;
+  -webkit-box-shadow: 0 1px 1px rgba(90,90,90,0.1);
+  box-shadow: 0 1px 1px rgba(90,90,90,0.1);
+}
+.m-b-none {
+  margin-bottom: 0;
+}
+.pull-in {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.line-dashed {
+  border-style: dashed !important;
+  background-color: transparent;
+  border-width: 0;
+}
+.line-lg {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.line {
+  height: 2px;
+  margin: 10px 0;
+  font-size: 0;
+  overflow: hidden;
+}
+.b-b {
+  border-bottom: 1px solid #eaeef1;
+}
+.m-b-sm {
+  margin-bottom: 10px;
+}
+.dropdown-select > li input {
+  position: absolute;
+  left: -9999em;
+}
+.dropdown-menu > li > a {
+  padding: 5px 15px;
+}
+.dropdown-menu {
+  border-radius: 2px;
+  -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+  background-image: none;
+  filter: none;
+  background-color: #e8eff0 !important;
+  color: #303437;
+}
+.bg-white a:hover {
+  color: #3c4144;
+}
+label {
+  font-weight: normal;
+}
+.switch {
+  cursor: pointer;
+  position: relative;
+}
+.switch input {
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.switch input:checked + span {
+  background-color: #1ab667;
+}
+.switch input:checked + span:after {
+  left: 31px;
+}
+.switch span {
+  position: relative;
+  width: 60px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-color: rgba(0,0,0,0.1);
+  display: inline-block;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+.switch span:after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  width: 26px;
+  top: 1px;
+  bottom: 1px;
+  border-radius: 30px;
+  -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+  -webkit-transition: left 0.2s;
+  transition: left 0.2s;
+}
+.btn {
+  font-weight: 500;
+  border-radius: 2px;
+}
+.btn-danger {
+  background-color: #d3282a;
+  border-color: #d3282a;
+}
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger {
+  color: #fff !important;
+  background-color: #c52527;
+  border-color: #ed2a2a;
+}
+.btn-success {
+  color: #fff !important;
+  background-color: #1ab667;
+  border-color: #1ab667;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
+  color: #fff !important;
+  background-color: #17a05a;
+  border-color: #159253;
+}
