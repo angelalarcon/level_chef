@@ -330,6 +330,10 @@ a:hover, a:focus {
 .chat-item .chat-body .panel {
   margin: 0 -1px;
 }
+.chat-item.right .chat-body {
+  margin-left: 0;
+  margin-right: 50px;
+}
 .m-b-none {
   margin-bottom: 0;
 }
@@ -405,7 +409,28 @@ a:hover, a:focus {
 .chat-item+.chat-item {
   margin-top: 15px;
 }
-
+.panel-footer {
+  border-color: #eaeef1;
+  border-radius: 0 0 2px 2px;
+  background-color: #f7fafa;
+}
+.m-b-none {
+  margin-bottom: 0;
+}
+.form-control, .form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.form-control {
+  border-color: #f7f7f7;
+  border-radius: 2px;
+  background-color: #f7f7f7;
+}
+.form-control:focus {
+  border-color: #b20000;
+  background-color: #2a2a2e;
+  color: #aeaeae;
+}
 
 
 

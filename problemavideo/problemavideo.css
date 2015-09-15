@@ -27,6 +27,7 @@ body {
 .m-t-n-xxs {
 	margin-top: -1px;
 }
+
 .panel {
 	border-radius: 2px;
 }
@@ -135,6 +136,9 @@ a:hover, a:focus {
   background-color: #f9d21a;
   border-color: #fad733;
 }
+
+
+
 @media (min-width: 768px) {
   body.container {
     -webkit-box-shadow: 0 3px 60px rgba(0,0,0,0.3);
